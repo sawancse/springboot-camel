@@ -67,5 +67,3 @@ public class SimpleCamelRoute  extends RouteBuilder{
 
     }
 }
-
-
