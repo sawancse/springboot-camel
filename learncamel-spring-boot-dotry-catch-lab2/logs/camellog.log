@@ -163,3 +163,1775 @@ Verify the connector's configuration, identify and stop any process that's liste
 28-10-2021 10:33:59.154 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
 28-10-2021 10:33:59.159 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 4.091 seconds (JVM running for 5.111)
 28-10-2021 10:40:59.300 [Camel (camel-1) thread #1 - file://data/input] INFO  route1.log - Received body 
+28-10-2021 10:49:56.224 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 2096 (H:\camelexceotion\learncamel-spring-boot-dotry-catch-lab2\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-dotry-catch-lab2)
+28-10-2021 10:49:56.228 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+28-10-2021 10:49:56.273 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:49:56 IST 2021]; root of context hierarchy
+28-10-2021 10:49:56.417 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+28-10-2021 10:49:57.451 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$7a125cae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+28-10-2021 10:49:57.459 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57e8968f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+28-10-2021 10:49:57.822 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-10-2021 10:49:57.829 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-10-2021 10:49:57.830 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+28-10-2021 10:49:57.927 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-10-2021 10:49:57.928 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1655 ms
+28-10-2021 10:49:58.088 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+28-10-2021 10:49:58.091 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+28-10-2021 10:49:58.092 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+28-10-2021 10:49:58.092 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+28-10-2021 10:49:58.092 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+28-10-2021 10:49:58.401 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:49:56 IST 2021]; root of context hierarchy
+28-10-2021 10:49:58.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+28-10-2021 10:49:58.459 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+28-10-2021 10:49:58.490 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:49:58.490 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:49:58.548 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:49:58.771 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+28-10-2021 10:49:58.854 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+28-10-2021 10:49:59.703 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+28-10-2021 10:49:59.730 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+28-10-2021 10:49:59.730 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+28-10-2021 10:49:59.739 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+28-10-2021 10:49:59.740 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+28-10-2021 10:50:00.102 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+28-10-2021 10:50:00.105 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+28-10-2021 10:50:00.105 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Using default memory based idempotent repository with cache max size: 1000
+28-10-2021 10:50:00.172 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+28-10-2021 10:50:00.172 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Using default memory based idempotent repository with cache max size: 1000
+28-10-2021 10:50:00.187 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: file://data/input?noop=true
+28-10-2021 10:50:00.189 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: file://data/input1?noop=true
+28-10-2021 10:50:00.189 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 2 routes, of which 2 are started
+28-10-2021 10:50:00.190 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.450 seconds
+28-10-2021 10:50:00.194 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-10-2021 10:50:00.202 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-10-2021 10:50:00.215 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+28-10-2021 10:50:00.231 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+28-10-2021 10:50:00.237 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 4.299 seconds (JVM running for 5.224)
+28-10-2021 10:50:01.265 [Camel (camel-1) thread #1 - file://data/input] INFO  route1.log - Received body 
+28-10-2021 10:50:28.148 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+28-10-2021 10:50:28.149 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:49:56 IST 2021]; root of context hierarchy
+28-10-2021 10:50:28.153 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+28-10-2021 10:50:28.155 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+28-10-2021 10:50:28.156 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 2 routes (timeout 2 seconds)
+28-10-2021 10:50:28.162 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route2 shutdown complete, was consuming from: file://data/input1?noop=true
+28-10-2021 10:50:28.163 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+28-10-2021 10:50:28.164 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 2 routes completed in 0 seconds
+28-10-2021 10:50:28.186 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 28.447 seconds
+28-10-2021 10:50:28.187 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.032 seconds
+28-10-2021 10:50:28.189 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+28-10-2021 10:50:35.923 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 8356 (H:\camelexceotion\learncamel-spring-boot-dotry-catch-lab2\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-dotry-catch-lab2)
+28-10-2021 10:50:35.927 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+28-10-2021 10:50:35.971 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:50:35 IST 2021]; root of context hierarchy
+28-10-2021 10:50:36.119 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+28-10-2021 10:50:37.076 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$7c0b74c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+28-10-2021 10:50:37.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59e1aea7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+28-10-2021 10:50:37.426 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-10-2021 10:50:37.437 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-10-2021 10:50:37.437 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+28-10-2021 10:50:37.535 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-10-2021 10:50:37.536 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1565 ms
+28-10-2021 10:50:37.695 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+28-10-2021 10:50:37.699 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+28-10-2021 10:50:37.700 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+28-10-2021 10:50:37.700 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+28-10-2021 10:50:37.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+28-10-2021 10:50:38.017 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:50:35 IST 2021]; root of context hierarchy
+28-10-2021 10:50:38.074 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+28-10-2021 10:50:38.075 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+28-10-2021 10:50:38.107 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:50:38.107 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:50:38.169 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:50:38.386 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+28-10-2021 10:50:38.469 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+28-10-2021 10:50:39.224 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+28-10-2021 10:50:39.250 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+28-10-2021 10:50:39.250 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+28-10-2021 10:50:39.260 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+28-10-2021 10:50:39.262 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+28-10-2021 10:50:39.605 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+28-10-2021 10:50:39.607 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+28-10-2021 10:50:39.607 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Using default memory based idempotent repository with cache max size: 1000
+28-10-2021 10:50:39.669 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: file://data/input?noop=true
+28-10-2021 10:50:39.670 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+28-10-2021 10:50:39.671 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+28-10-2021 10:50:39.675 [Camel (camel-1) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+28-10-2021 10:50:39.676 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 0 seconds
+28-10-2021 10:50:39.695 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.433 seconds
+28-10-2021 10:50:39.695 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.025 seconds
+28-10-2021 10:50:39.698 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+28-10-2021 10:50:39.708 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+28-10-2021 10:50:39.715 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application startup failed
+org.apache.camel.RuntimeCamelException: org.apache.camel.FailedToStartRouteException: Failed to start route route2 because of Multiple consumers for the same endpoint is not allowed: file://data/input?noop=true
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:136)
+	at org.apache.camel.spring.SpringCamelContext.onApplicationEvent(SpringCamelContext.java:174)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+Caused by: org.apache.camel.FailedToStartRouteException: Failed to start route route2 because of Multiple consumers for the same endpoint is not allowed: file://data/input?noop=true
+	at org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers(DefaultCamelContext.java:3978)
+	at org.apache.camel.impl.DefaultCamelContext.doStartRouteConsumers(DefaultCamelContext.java:3954)
+	at org.apache.camel.impl.DefaultCamelContext.safelyStartRouteServices(DefaultCamelContext.java:3874)
+	at org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRoutes(DefaultCamelContext.java:3638)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:3490)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:208)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3249)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3245)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:3245)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:3168)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:133)
+	... 16 common frames omitted
+28-10-2021 10:50:39.716 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:50:35 IST 2021]; root of context hierarchy
+28-10-2021 10:50:39.719 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+28-10-2021 10:50:39.720 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+28-10-2021 10:51:38.061 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 13844 (H:\camelexceotion\learncamel-spring-boot-dotry-catch-lab2\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-dotry-catch-lab2)
+28-10-2021 10:51:38.065 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+28-10-2021 10:51:38.105 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:51:38 IST 2021]; root of context hierarchy
+28-10-2021 10:51:38.239 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+28-10-2021 10:51:39.204 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$8a7cbca6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+28-10-2021 10:51:39.214 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6852f687] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+28-10-2021 10:51:39.556 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+28-10-2021 10:51:39.565 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+28-10-2021 10:51:39.566 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+28-10-2021 10:51:39.664 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+28-10-2021 10:51:39.664 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1559 ms
+28-10-2021 10:51:39.835 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+28-10-2021 10:51:39.838 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+28-10-2021 10:51:39.840 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+28-10-2021 10:51:39.840 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+28-10-2021 10:51:39.840 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+28-10-2021 10:51:40.165 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:51:38 IST 2021]; root of context hierarchy
+28-10-2021 10:51:40.218 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+28-10-2021 10:51:40.220 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+28-10-2021 10:51:40.251 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:51:40.251 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:51:40.310 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+28-10-2021 10:51:40.509 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+28-10-2021 10:51:40.586 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+28-10-2021 10:51:41.352 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+28-10-2021 10:51:41.378 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+28-10-2021 10:51:41.379 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+28-10-2021 10:51:41.387 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+28-10-2021 10:51:41.388 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+28-10-2021 10:51:41.725 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+28-10-2021 10:51:41.727 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+28-10-2021 10:51:41.728 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Using default memory based idempotent repository with cache max size: 1000
+28-10-2021 10:51:41.768 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+28-10-2021 10:51:41.769 [main] INFO  o.a.c.component.file.FileEndpoint.createConsumer - Using default memory based idempotent repository with cache max size: 1000
+28-10-2021 10:51:41.788 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: file://data/input?noop=true
+28-10-2021 10:51:41.793 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: file://dataFile?noop=true
+28-10-2021 10:51:41.794 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 2 routes, of which 2 are started
+28-10-2021 10:51:41.795 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.408 seconds
+28-10-2021 10:51:41.800 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+28-10-2021 10:51:41.806 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+28-10-2021 10:51:41.816 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+28-10-2021 10:51:41.831 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+28-10-2021 10:51:41.835 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 4.068 seconds (JVM running for 5.012)
+28-10-2021 10:51:42.851 [Camel (camel-1) thread #1 - file://data/input] INFO  route1.log - Received body 
+28-10-2021 10:51:42.857 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-3 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-2). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [        14]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         6]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:42.857 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:42.859 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-5 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-4). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:42.860 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:42.862 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-7 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-6). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:42.863 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:43.382 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-9 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-8). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:43.384 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:43.387 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-11 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-10). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:43.390 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:43.394 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-13 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-12). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:43.395 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:43.916 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-15 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-14). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:43.917 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:43.925 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-17 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-16). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         4]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:43.927 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:43.933 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-19 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-18). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:43.935 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:44.449 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-21 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-20). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:44.450 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:44.458 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-23 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-22). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         3]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:44.459 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:44.467 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-25 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-24). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:44.468 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:44.990 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-27 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-26). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:44.992 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:44.997 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-29 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-28). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:44.999 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:45.006 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-31 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-30). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:45.008 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:45.528 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-33 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-32). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:45.529 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:45.535 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-35 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-34). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:45.542 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:45.550 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-37 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-36). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         3]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         2]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:45.551 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:46.077 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-39 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-38). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:46.079 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:46.084 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-41 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-40). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:46.085 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:46.092 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-43 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-42). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:46.093 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:46.611 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-45 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-44). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:46.612 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:46.617 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-47 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-46). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:46.618 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:46.624 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-49 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-48). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:46.625 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:47.133 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-51 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-50). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:47.134 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:47.142 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-53 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-52). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         0]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:47.143 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:47.147 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-55 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-54). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:47.148 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:47.674 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-57 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-56). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:47.675 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:47.679 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-59 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-58). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         0]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:47.680 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:47.684 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-61 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-60). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:47.686 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:48.208 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-63 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-62). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:48.210 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:48.215 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-65 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-64). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:48.216 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:48.225 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-67 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-66). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:48.226 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:48.742 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-69 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-68). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:48.743 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:48.749 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-71 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-70). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:48.750 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:48.761 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-73 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-72). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         2]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:48.763 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:49.279 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-75 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-74). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         0]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:49.280 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:49.282 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-77 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-76). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:49.283 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:49.287 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-79 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-78). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:49.288 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:49.798 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-81 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-80). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:49.802 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:49.813 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-83 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-82). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:49.814 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:49.822 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-85 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-84). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:49.823 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:50.342 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-87 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-86). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:50.343 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:50.348 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-89 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-88). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:50.352 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:50.358 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-91 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-90). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:50.360 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:50.870 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-93 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-92). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:50.872 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:50.876 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-95 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-94). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:50.877 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:50.881 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-97 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-96). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         1]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:50.884 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:51.405 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-99 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-98). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:51.407 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileAdd.txt]
+28-10-2021 10:51:51.411 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-101 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-100). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         0]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:51.411 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileDelete.txt]
+28-10-2021 10:51:51.414 [Camel (camel-1) thread #2 - file://dataFile] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635398500443-0-103 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635398500443-0-102). Exhausted after delivery attempt: 1 caught: com.learncamel.exception.CamelCustomException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route2            ] [route2            ] [file://dataFile?noop=true                                                     ] [         2]
+[route2            ] [process3          ] [Processor@0x14e57d5b                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.learncamel.exception.CamelCustomException: null
+	at com.learncamel.process.MyProcessor.process(MyProcessor.java:11)
+	at org.apache.camel.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:63)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+28-10-2021 10:51:51.417 [Camel (camel-1) thread #2 - file://dataFile] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@73974a07 for file: GenericFile[fileUpdate.txt]
+28-10-2021 10:51:51.670 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+28-10-2021 10:51:51.670 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Thu Oct 28 10:51:38 IST 2021]; root of context hierarchy
+28-10-2021 10:51:51.673 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+28-10-2021 10:51:51.673 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+28-10-2021 10:51:51.674 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 2 routes (timeout 2 seconds)
+28-10-2021 10:51:51.677 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route2 shutdown complete, was consuming from: file://dataFile?noop=true
+28-10-2021 10:51:51.678 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+28-10-2021 10:51:51.678 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 2 routes completed in 0 seconds
+28-10-2021 10:51:51.698 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 10.312 seconds
+28-10-2021 10:51:51.699 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.026 seconds
+28-10-2021 10:51:51.701 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown

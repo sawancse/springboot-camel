@@ -38,6 +38,6 @@ public class SimpleCamelRoute  extends RouteBuilder{
              }
          }).log("Received body ");
 
-
+    	 from("file:dataFile?noop=true").process(new MyProcessor()).to("file:data/output");
     }
 }
