@@ -1,0 +1,794 @@
+02-02-2018 05:37:23.915 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+02-02-2018 05:37:23.936 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02-02-2018 05:37:23.937 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02-02-2018 05:37:24.190 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+02-02-2018 05:37:24.206 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+02-02-2018 05:37:24.253 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c9d0b9d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@43301423, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2f112965, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a04f701, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e91d63f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@d4342c2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2bbf180e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@163e4e87, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@56de5251, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@419c5f1a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@12b0404f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@769e7ee8]
+02-02-2018 05:37:24.283 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+02-02-2018 05:37:25.021 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on 6c4008c0f7fa with PID 44440 (started by z001qgd in /Dilip/Study/ApacheCamel/TeachApacheCamel-Spring-Boot/session-codebase/learncamel-spring-boot)
+02-02-2018 05:37:25.022 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+02-02-2018 05:37:25.130 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24105dc5: startup date [Fri Feb 02 05:37:25 CST 2018]; root of context hierarchy
+02-02-2018 05:37:25.694 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+02-02-2018 05:37:27.231 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$96228e4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+02-02-2018 05:37:28.155 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24105dc5: startup date [Fri Feb 02 05:37:25 CST 2018]; root of context hierarchy
+02-02-2018 05:37:28.270 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+02-02-2018 05:37:28.272 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+02-02-2018 05:37:28.325 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 05:37:28.325 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 05:37:28.379 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 05:37:28.812 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+02-02-2018 05:37:29.018 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+02-02-2018 05:37:30.026 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the Camel Route
+02-02-2018 05:37:30.113 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Ending the Camel Route
+02-02-2018 05:37:30.114 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+02-02-2018 05:37:30.114 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+02-02-2018 05:37:30.133 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 5.666 seconds (JVM running for 6.998)
+02-02-2018 05:37:30.139 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+02-02-2018 05:37:30.180 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+02-02-2018 05:37:30.181 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+02-02-2018 05:37:30.182 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+02-02-2018 05:37:30.183 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+02-02-2018 05:37:30.184 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+02-02-2018 05:37:30.530 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+02-02-2018 05:37:30.617 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+02-02-2018 05:37:30.619 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+02-02-2018 05:37:30.620 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.436 seconds
+02-02-2018 05:37:31.627 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 05:37:32.711 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - The unmarshaled object is [Item{transactionType='ADD', sku='100', itemDescription='Samsung TV', price=500.00}, Item{transactionType='ADD', sku='101', itemDescription='LG TV', price=500.00}]
+02-02-2018 05:37:32.716 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Record is Item{transactionType='ADD', sku='100', itemDescription='Samsung TV', price=500.00}
+02-02-2018 05:37:32.717 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Record is Item{transactionType='ADD', sku='101', itemDescription='LG TV', price=500.00}
+02-02-2018 05:37:33.720 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@24105dc5: startup date [Fri Feb 02 05:37:25 CST 2018]; root of context hierarchy
+02-02-2018 05:37:33.723 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+02-02-2018 05:37:33.723 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+02-02-2018 05:37:33.724 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 10 seconds)
+02-02-2018 05:37:33.734 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+02-02-2018 05:37:33.734 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 0 seconds
+02-02-2018 05:37:33.755 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 3.572 seconds
+02-02-2018 05:37:33.755 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.032 seconds
+02-02-2018 05:37:33.762 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+02-02-2018 05:37:33.763 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Testing done: testMoveFile(com.learncamel.route.SimpleCamelRouteTest)
+02-02-2018 05:37:33.763 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Took: 3.142 seconds (3142 millis)
+02-02-2018 05:37:33.763 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+02-02-2018 20:13:24.266 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+02-02-2018 20:13:24.274 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02-02-2018 20:13:24.275 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02-02-2018 20:13:24.418 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+02-02-2018 20:13:24.428 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+02-02-2018 20:13:24.456 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@45b9a632, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@25d250c6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4df50bcc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b26e945, org.springframework.test.context.transaction.TransactionalTestExecutionListener@63a65a25, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@54c562f7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@318ba8c8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6dbb137d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c9d0b9d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@43301423, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f112965, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a04f701]
+02-02-2018 20:13:24.487 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+02-02-2018 20:13:25.374 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on 6c4008c0f7fa with PID 69094 (started by z001qgd in /Dilip/Study/ApacheCamel/TeachApacheCamel-Spring-Boot/session-codebase/learncamel-spring-boot)
+02-02-2018 20:13:25.375 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+02-02-2018 20:13:25.411 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1a5a4e19: startup date [Fri Feb 02 20:13:25 CST 2018]; root of context hierarchy
+02-02-2018 20:13:25.768 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+02-02-2018 20:13:26.672 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$96228e4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+02-02-2018 20:13:27.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1a5a4e19: startup date [Fri Feb 02 20:13:25 CST 2018]; root of context hierarchy
+02-02-2018 20:13:27.245 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+02-02-2018 20:13:27.247 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+02-02-2018 20:13:27.270 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 20:13:27.270 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 20:13:27.308 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 20:13:27.528 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+02-02-2018 20:13:27.642 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+02-02-2018 20:13:28.216 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the Camel Route
+02-02-2018 20:13:28.272 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Ending the Camel Route
+02-02-2018 20:13:28.272 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+02-02-2018 20:13:28.273 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+02-02-2018 20:13:28.287 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 3.636 seconds (JVM running for 4.619)
+02-02-2018 20:13:28.292 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+02-02-2018 20:13:28.317 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+02-02-2018 20:13:28.318 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+02-02-2018 20:13:28.318 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+02-02-2018 20:13:28.319 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+02-02-2018 20:13:28.319 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+02-02-2018 20:13:28.552 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+02-02-2018 20:13:28.630 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+02-02-2018 20:13:28.631 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+02-02-2018 20:13:28.632 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.314 seconds
+02-02-2018 20:13:29.639 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:13:30.666 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624007435-0-3 on ExchangeId: ID-6c4008c0f7fa-1517624007435-0-2). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [      1028]
+[route1            ] [log1              ] [log                                                                           ] [         2]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [      1023]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [      1017]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.apache.camel.test.spring.CamelSpringBootExecutionListener.prepareTestInstance(CamelSpringBootExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+02-02-2018 20:13:30.667 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@3c52dcca for file: GenericFile[fileTest.txt]
+02-02-2018 20:13:30.670 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624007435-0-2]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.apache.camel.test.spring.CamelSpringBootExecutionListener.prepareTestInstance(CamelSpringBootExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+02-02-2018 20:13:31.691 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@1a5a4e19: startup date [Fri Feb 02 20:13:25 CST 2018]; root of context hierarchy
+02-02-2018 20:13:31.694 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+02-02-2018 20:13:31.694 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+02-02-2018 20:13:31.695 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 10 seconds)
+02-02-2018 20:13:31.700 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+02-02-2018 20:13:31.701 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 0 seconds
+02-02-2018 20:13:31.714 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 3.396 seconds
+02-02-2018 20:13:31.715 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.021 seconds
+02-02-2018 20:13:31.718 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+02-02-2018 20:13:31.718 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Testing done: testMoveFile(com.learncamel.route.SimpleCamelRouteTest)
+02-02-2018 20:13:31.719 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Took: 3.085 seconds (3085 millis)
+02-02-2018 20:13:31.719 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+02-02-2018 20:13:48.628 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on 6c4008c0f7fa with PID 69103 (/Dilip/Study/ApacheCamel/TeachApacheCamel-Spring-Boot/session-codebase/learncamel-spring-boot/target/classes started by z001qgd in /Dilip/Study/ApacheCamel/TeachApacheCamel-Spring-Boot/session-codebase/learncamel-spring-boot)
+02-02-2018 20:13:48.630 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+02-02-2018 20:13:48.686 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@351d00c0: startup date [Fri Feb 02 20:13:48 CST 2018]; root of context hierarchy
+02-02-2018 20:13:48.971 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+02-02-2018 20:13:49.649 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$a61f16b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+02-02-2018 20:13:50.030 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-02-2018 20:13:50.042 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-02-2018 20:13:50.043 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+02-02-2018 20:13:50.143 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-02-2018 20:13:50.143 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1457 ms
+02-02-2018 20:13:50.248 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+02-02-2018 20:13:50.251 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+02-02-2018 20:13:50.252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+02-02-2018 20:13:50.252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+02-02-2018 20:13:50.252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+02-02-2018 20:13:50.499 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@351d00c0: startup date [Fri Feb 02 20:13:48 CST 2018]; root of context hierarchy
+02-02-2018 20:13:50.554 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+02-02-2018 20:13:50.555 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+02-02-2018 20:13:50.576 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 20:13:50.576 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 20:13:50.603 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+02-02-2018 20:13:50.796 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+02-02-2018 20:13:50.968 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+02-02-2018 20:13:51.373 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+02-02-2018 20:13:51.381 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the Camel Route
+02-02-2018 20:13:51.423 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Ending the Camel Route
+02-02-2018 20:13:51.424 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+02-02-2018 20:13:51.424 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+02-02-2018 20:13:51.431 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+02-02-2018 20:13:51.432 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+02-02-2018 20:13:51.612 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+02-02-2018 20:13:51.665 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+02-02-2018 20:13:51.666 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+02-02-2018 20:13:51.667 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.235 seconds
+02-02-2018 20:13:51.672 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-02-2018 20:13:51.681 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-02-2018 20:13:51.700 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+02-02-2018 20:13:51.716 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+02-02-2018 20:13:51.721 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 3.424 seconds (JVM running for 3.882)
+02-02-2018 20:13:52.677 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:13:53.707 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-2 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-1). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [      1030]
+[route1            ] [log1              ] [log                                                                           ] [         3]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [      1024]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [      1019]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:13:53.708 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:13:53.712 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-1]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:02.671 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:14:02.766 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-4 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-3). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [        94]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [        92]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [        92]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:02.767 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:14:02.767 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-3]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:12.674 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:14:12.834 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-6 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-5). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [       160]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [       158]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [       158]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:12.835 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:14:12.836 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-5]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:22.677 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:14:22.907 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-8 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-7). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [       229]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [       228]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [       228]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:22.907 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:14:22.908 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-7]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:32.679 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:14:32.973 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-10 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-9). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [       293]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [       293]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [       292]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:32.975 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:14:32.975 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-9]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:42.681 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:14:43.036 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-12 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-11). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [       355]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [       353]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [       353]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:43.037 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:14:43.038 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-11]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:52.687 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:14:52.873 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-14 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-13). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [       185]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [       183]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [       183]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:14:52.873 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:14:52.874 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-13]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:15:02.688 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+02-02-2018 20:15:03.006 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-6c4008c0f7fa-1517624030709-0-16 on ExchangeId: ID-6c4008c0f7fa-1517624030709-0-15). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: Exception
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [       317]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [       316]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none}]               ] [       316]
+[route1            ] [throwException1   ] [throwException[org.apache.camel.RuntimeCamelException]                        ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 20:15:03.007 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@7da15b2b for file: GenericFile[fileTest.txt]
+02-02-2018 20:15:03.008 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-6c4008c0f7fa-1517624030709-0-15]. Caused by: [org.apache.camel.RuntimeCamelException - Exception]
+org.apache.camel.RuntimeCamelException: Exception
+	at com.learncamel.route.SimpleCamelRoute.configure(SimpleCamelRoute.java:41)
+	at org.apache.camel.builder.RouteBuilder.checkInitialized(RouteBuilder.java:462)
+	at org.apache.camel.builder.RouteBuilder.configureRoutes(RouteBuilder.java:402)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:383)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1032)
+	at org.apache.camel.impl.DefaultCamelContext$1.call(DefaultCamelContext.java:1029)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:1029)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:131)
+	at org.apache.camel.spring.boot.RoutesCollector.onApplicationEvent(RoutesCollector.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+02-02-2018 23:15:13.072 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
