@@ -1,0 +1,82 @@
+spring:
+  profiles:
+    active: dev
+camel.springboot.shutdownTimeout: 2
+
+---
+
+spring:
+  profiles: mock
+
+startRoute: direct:input
+fromRoute : file:data/input?delete=true&readLock=none
+toRoute1: mock:output
+toRoute2: mock:output1
+toRoute3: mock:output2
+
+message: DEV Environment
+
+
+---
+
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+
+  mail:
+      host: smtp.gmail.com
+      port: 587
+      username: sit.sawan@gmail.com
+      password: Jaimaadurga1@3
+      properties.mail.smtp.auth:  true
+      properties.mail.smtp.starttls.enable: true
+
+mailto: sit.sawan@gmail.com
+mailFrom: sit.sawan@gmail.com
+
+startRoute: timer:hello?period=10s
+fromRoute : file:data/input?delete=true&readLock=none&moveFailed=error
+toRoute1: file:data/output
+toRoute2: jdbc:dataSource
+toRoute3: file:data/output?fileName=Success.txt
+  
+
+message: DEV Environment
+
+---
+spring:
+  profiles: stage
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+
+startRoute: timer:hello?period=10s
+fromRoute : file:data/input?delete=true&readLock=none&moveFailed=error
+toRoute1: file:data/output
+toRoute2: jdbc:dataSource
+toRoute3: file:data/output?fileName=Success.txt
+message: STAGE Environment
+
+---
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+
+startRoute: timer:hello?period=10s
+fromRoute : file:data/input?delete=true&readLock=none&moveFailed=error
+toRoute1: file:data/output
+toRoute2: jdbc:dataSource
+toRoute3: file:data/output?fileName=Success.txt
+
+message: PROD Environment
+---
