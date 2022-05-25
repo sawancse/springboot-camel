@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: learncamel-spring-boot-aggregation-lab1
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lenovo
+Implementation-Vendor-Id: com.learncamel
+Build-Jdk: 1.8.0_301
+Implementation-URL: http://projects.spring.io/spring-boot/learncamel-s
+ pring-boot-aggregation-lab1/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

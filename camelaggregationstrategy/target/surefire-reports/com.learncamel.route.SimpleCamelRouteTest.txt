@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.learncamel.route.SimpleCamelRouteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.918 sec - in com.learncamel.route.SimpleCamelRouteTest
