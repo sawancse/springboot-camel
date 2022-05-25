@@ -1,0 +1,378 @@
+27-10-2021 19:51:15.986 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 3800 (H:\camelexceotion\learncamel-spring-boot-on-exception\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-on-exception)
+27-10-2021 19:51:15.994 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+27-10-2021 19:51:16.072 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:51:16 IST 2021]; root of context hierarchy
+27-10-2021 19:51:16.498 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+27-10-2021 19:51:18.611 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$a19ae929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 19:51:18.624 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f71230a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 19:51:19.295 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+27-10-2021 19:51:19.318 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+27-10-2021 19:51:19.320 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+27-10-2021 19:51:19.466 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+27-10-2021 19:51:19.467 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 3395 ms
+27-10-2021 19:51:19.797 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+27-10-2021 19:51:19.806 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+27-10-2021 19:51:19.807 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+27-10-2021 19:51:19.808 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+27-10-2021 19:51:19.808 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+27-10-2021 19:51:20.766 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:51:16 IST 2021]; root of context hierarchy
+27-10-2021 19:51:20.862 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+27-10-2021 19:51:20.863 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27-10-2021 19:51:20.936 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:51:20.937 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:51:21.025 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:51:21.327 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+27-10-2021 19:51:21.457 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+27-10-2021 19:51:22.536 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+27-10-2021 19:51:22.670 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+27-10-2021 19:51:22.670 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+27-10-2021 19:51:22.694 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+27-10-2021 19:51:22.697 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+27-10-2021 19:51:23.284 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+27-10-2021 19:51:23.322 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.626 seconds
+27-10-2021 19:51:23.323 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.038 seconds
+27-10-2021 19:51:23.326 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+27-10-2021 19:51:23.361 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+27-10-2021 19:51:23.394 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application startup failed
+org.apache.camel.RuntimeCamelException: org.apache.camel.FailedToCreateRouteException: Failed to create route route1 at: >>> OnException[[class com.learncamel.exception.DataException] -> [Log[DataException in the route ${body}], To[file://data/error?camelFileName=${header.fileName}]]] <<< in route: Route(route1)[[From[{{startRoute}}]] -> [OnException[[class ... because of Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: There are 1 parameters that couldn't be set on the endpoint. Check the uri if the parameters are spelt correctly and that they are properties of the endpoint. Unknown parameters=[{camelFileName=${header.fileName}}]
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:136)
+	at org.apache.camel.spring.SpringCamelContext.onApplicationEvent(SpringCamelContext.java:174)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+Caused by: org.apache.camel.FailedToCreateRouteException: Failed to create route route1 at: >>> OnException[[class com.learncamel.exception.DataException] -> [Log[DataException in the route ${body}], To[file://data/error?camelFileName=${header.fileName}]]] <<< in route: Route(route1)[[From[{{startRoute}}]] -> [OnException[[class ... because of Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: There are 1 parameters that couldn't be set on the endpoint. Check the uri if the parameters are spelt correctly and that they are properties of the endpoint. Unknown parameters=[{camelFileName=${header.fileName}}]
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:1298)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:204)
+	at org.apache.camel.impl.DefaultCamelContext.startRoute(DefaultCamelContext.java:1148)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteDefinitions(DefaultCamelContext.java:3727)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:3441)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:208)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3249)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3245)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:3245)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:3168)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:133)
+	... 16 common frames omitted
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: There are 1 parameters that couldn't be set on the endpoint. Check the uri if the parameters are spelt correctly and that they are properties of the endpoint. Unknown parameters=[{camelFileName=${header.fileName}}]
+	at org.apache.camel.impl.DefaultCamelContext.getEndpoint(DefaultCamelContext.java:763)
+	at org.apache.camel.util.CamelContextHelper.getMandatoryEndpoint(CamelContextHelper.java:80)
+	at org.apache.camel.model.RouteDefinition.resolveEndpoint(RouteDefinition.java:219)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:115)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:121)
+	at org.apache.camel.model.SendDefinition.resolveEndpoint(SendDefinition.java:62)
+	at org.apache.camel.model.SendDefinition.createProcessor(SendDefinition.java:56)
+	at org.apache.camel.model.ProcessorDefinition.createProcessor(ProcessorDefinition.java:498)
+	at org.apache.camel.model.ProcessorDefinition.createOutputsProcessorImpl(ProcessorDefinition.java:461)
+	at org.apache.camel.model.ProcessorDefinition.createOutputsProcessor(ProcessorDefinition.java:428)
+	at org.apache.camel.model.ProcessorDefinition.createOutputsProcessor(ProcessorDefinition.java:172)
+	at org.apache.camel.model.OnExceptionDefinition.addRoutes(OnExceptionDefinition.java:204)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:1295)
+	... 28 common frames omitted
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: file://data/error?camelFileName=%24%7Bheader.fileName%7D due to: There are 1 parameters that couldn't be set on the endpoint. Check the uri if the parameters are spelt correctly and that they are properties of the endpoint. Unknown parameters=[{camelFileName=${header.fileName}}]
+	at org.apache.camel.impl.DefaultComponent.validateParameters(DefaultComponent.java:215)
+	at org.apache.camel.impl.DefaultComponent.createEndpoint(DefaultComponent.java:139)
+	at org.apache.camel.impl.DefaultCamelContext.getEndpoint(DefaultCamelContext.java:716)
+	... 40 common frames omitted
+27-10-2021 19:51:23.397 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:51:16 IST 2021]; root of context hierarchy
+27-10-2021 19:51:23.402 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+27-10-2021 19:51:23.404 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+27-10-2021 19:52:09.924 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 11584 (H:\camelexceotion\learncamel-spring-boot-on-exception\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-on-exception)
+27-10-2021 19:52:09.927 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+27-10-2021 19:52:09.985 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:52:09 IST 2021]; root of context hierarchy
+27-10-2021 19:52:10.220 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+27-10-2021 19:52:11.804 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$a19ae929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 19:52:11.817 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f71230a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 19:52:12.406 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+27-10-2021 19:52:12.420 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+27-10-2021 19:52:12.422 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+27-10-2021 19:52:12.548 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+27-10-2021 19:52:12.548 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2564 ms
+27-10-2021 19:52:12.813 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+27-10-2021 19:52:12.818 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+27-10-2021 19:52:12.819 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+27-10-2021 19:52:12.819 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+27-10-2021 19:52:12.819 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+27-10-2021 19:52:13.620 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:52:09 IST 2021]; root of context hierarchy
+27-10-2021 19:52:13.701 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+27-10-2021 19:52:13.702 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27-10-2021 19:52:13.770 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:52:13.771 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:52:13.824 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:52:14.104 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+27-10-2021 19:52:14.229 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+27-10-2021 19:52:15.264 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+27-10-2021 19:52:15.363 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+27-10-2021 19:52:15.364 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+27-10-2021 19:52:15.376 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+27-10-2021 19:52:15.378 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+27-10-2021 19:52:16.007 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+27-10-2021 19:52:16.157 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+27-10-2021 19:52:16.159 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: direct://start1
+27-10-2021 19:52:16.161 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route3 started and consuming from: direct://start2
+27-10-2021 19:52:16.163 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 3 routes, of which 3 are started
+27-10-2021 19:52:16.165 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.788 seconds
+27-10-2021 19:52:16.173 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:16.181 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:16.201 [main] ERROR o.a.coyote.http11.Http11NioProtocol.log - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+27-10-2021 19:52:16.202 [main] ERROR o.a.catalina.core.StandardService.log - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.learncamel.LearncamelSpringBootApplication.main(LearncamelSpringBootApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+27-10-2021 19:52:16.219 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:16.219 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+27-10-2021 19:52:16.238 [main] INFO  o.apache.catalina.util.LifecycleBase.log - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+27-10-2021 19:52:16.239 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:16.240 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:16.245 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+27-10-2021 19:52:16.252 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+27-10-2021 19:52:16.253 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:52:09 IST 2021]; root of context hierarchy
+27-10-2021 19:52:16.259 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+27-10-2021 19:52:16.260 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+27-10-2021 19:52:16.262 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 3 routes (timeout 2 seconds)
+27-10-2021 19:52:16.276 [Camel (camel-1) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route3 shutdown complete, was consuming from: direct://start2
+27-10-2021 19:52:16.277 [Camel (camel-1) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route2 shutdown complete, was consuming from: direct://start1
+27-10-2021 19:52:16.280 [Camel (camel-1) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+27-10-2021 19:52:16.281 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 3 routes completed in 0 seconds
+27-10-2021 19:52:16.305 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.929 seconds
+27-10-2021 19:52:16.305 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.045 seconds
+27-10-2021 19:52:16.307 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+27-10-2021 19:52:34.785 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 10508 (H:\camelexceotion\learncamel-spring-boot-on-exception\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-on-exception)
+27-10-2021 19:52:34.790 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+27-10-2021 19:52:34.846 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:52:34 IST 2021]; root of context hierarchy
+27-10-2021 19:52:35.096 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+27-10-2021 19:52:36.709 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$ca97fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 19:52:36.722 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dea0d1dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 19:52:37.338 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+27-10-2021 19:52:37.350 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+27-10-2021 19:52:37.352 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+27-10-2021 19:52:37.495 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+27-10-2021 19:52:37.496 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2650 ms
+27-10-2021 19:52:37.775 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+27-10-2021 19:52:37.782 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+27-10-2021 19:52:37.783 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+27-10-2021 19:52:37.783 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+27-10-2021 19:52:37.783 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+27-10-2021 19:52:38.700 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:52:34 IST 2021]; root of context hierarchy
+27-10-2021 19:52:38.813 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+27-10-2021 19:52:38.815 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27-10-2021 19:52:38.888 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:52:38.888 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:52:38.959 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 19:52:39.285 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+27-10-2021 19:52:39.437 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+27-10-2021 19:52:40.591 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+27-10-2021 19:52:40.685 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+27-10-2021 19:52:40.686 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+27-10-2021 19:52:40.699 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+27-10-2021 19:52:40.701 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+27-10-2021 19:52:41.361 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+27-10-2021 19:52:41.500 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+27-10-2021 19:52:41.501 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: direct://start1
+27-10-2021 19:52:41.503 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route3 started and consuming from: direct://start2
+27-10-2021 19:52:41.505 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 3 routes, of which 3 are started
+27-10-2021 19:52:41.507 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.807 seconds
+27-10-2021 19:52:41.512 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:41.526 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+27-10-2021 19:52:41.550 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+27-10-2021 19:52:41.585 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+27-10-2021 19:52:41.595 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 7.238 seconds (JVM running for 8.737)
+27-10-2021 19:52:42.532 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+27-10-2021 19:55:42.541 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DeadLetterChannel.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635344559146-0-3 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635344559146-0-1). On delivery attempt: 0 caught: java.lang.IllegalArgumentException: No records have been defined in the CSV
+27-10-2021 19:55:45.547 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DeadLetterChannel.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635344559146-0-3 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635344559146-0-1). On delivery attempt: 1 caught: java.lang.IllegalArgumentException: No records have been defined in the CSV
+27-10-2021 19:55:51.549 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DeadLetterChannel.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635344559146-0-3 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635344559146-0-1). On delivery attempt: 2 caught: java.lang.IllegalArgumentException: No records have been defined in the CSV
+27-10-2021 19:56:03.552 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DeadLetterChannel.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635344559146-0-3 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635344559146-0-1). On delivery attempt: 3 caught: java.lang.IllegalArgumentException: No records have been defined in the CSV
+27-10-2021 19:56:03.557 [Camel (camel-1) thread #1 - timer://hello] ERROR errorInRoute.log - Exchange[ExchangePattern: InOnly, Properties: {CamelBatchComplete=true, CamelBatchIndex=0, CamelBatchSize=1, CamelCreatedTimestamp=Wed Oct 27 19:52:42 IST 2021, CamelExceptionCaught=java.lang.IllegalArgumentException: No records have been defined in the CSV, CamelExternalRedelivered=false, CamelFailureEndpoint=file://data/output, CamelFailureRouteId=route1, CamelFatalFallbackErrorHandler=[route1], CamelFileExchangeFile=GenericFile[fileAdd.txt], CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=log3], DefaultMessageHistory[routeId=route1, node=choice1], DefaultMessageHistory[routeId=route1, node=pollEnrich1], DefaultMessageHistory[routeId=route1, node=to1], DefaultMessageHistory[routeId=route1, node=unmarshal1]], CamelTimerCounter=1, CamelTimerFiredTime=Wed Oct 27 19:52:42 IST 2021, CamelTimerName=hello, CamelTimerPeriod=10000, CamelToEndpoint=log://errorInRoute?level=ERROR&showProperties=true}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[fileAdd.txt]]]
+27-10-2021 19:56:03.563 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+27-10-2021 20:00:00.308 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+27-10-2021 20:00:00.309 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 19:52:34 IST 2021]; root of context hierarchy
+27-10-2021 20:00:00.314 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+27-10-2021 20:00:00.314 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+27-10-2021 20:00:00.315 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 3 routes (timeout 2 seconds)
+27-10-2021 20:00:00.322 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+27-10-2021 20:00:00.336 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635344559146-0-4, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=236773]
+27-10-2021 20:00:01.348 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+27-10-2021 20:00:01.349 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635344559146-0-4, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=237786]
+27-10-2021 20:00:02.097 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+27-10-2021 20:00:02.323 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+27-10-2021 20:00:02.323 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+27-10-2021 20:00:02.324 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route3 shutdown complete, was consuming from: direct://start2
+27-10-2021 20:00:02.328 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route2 shutdown complete, was consuming from: direct://start1
+27-10-2021 20:00:02.324 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635344559146-0-4, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=238761]
+27-10-2021 20:00:02.334 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 3 routes completed in 2 seconds
+27-10-2021 20:00:02.340 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+27-10-2021 20:00:02.348 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+27-10-2021 20:00:02.356 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 7 minutes
+27-10-2021 20:00:02.357 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.043 seconds
+27-10-2021 20:00:02.359 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+27-10-2021 20:00:17.477 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 4952 (H:\camelexceotion\learncamel-spring-boot-on-exception\target\classes started by lenovo in H:\camelexceotion\learncamel-spring-boot-on-exception)
+27-10-2021 20:00:17.481 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+27-10-2021 20:00:17.559 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 20:00:17 IST 2021]; root of context hierarchy
+27-10-2021 20:00:17.772 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+27-10-2021 20:00:19.435 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f950ee23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 20:00:19.450 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7272804] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-10-2021 20:00:20.073 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+27-10-2021 20:00:20.084 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+27-10-2021 20:00:20.086 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+27-10-2021 20:00:20.228 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+27-10-2021 20:00:20.228 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2669 ms
+27-10-2021 20:00:20.475 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+27-10-2021 20:00:20.482 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+27-10-2021 20:00:20.484 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+27-10-2021 20:00:20.484 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+27-10-2021 20:00:20.485 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+27-10-2021 20:00:21.289 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Wed Oct 27 20:00:17 IST 2021]; root of context hierarchy
+27-10-2021 20:00:21.382 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+27-10-2021 20:00:21.383 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27-10-2021 20:00:21.428 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 20:00:21.429 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 20:00:21.497 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27-10-2021 20:00:21.779 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+27-10-2021 20:00:21.889 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+27-10-2021 20:00:22.879 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+27-10-2021 20:00:22.946 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+27-10-2021 20:00:22.947 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+27-10-2021 20:00:22.956 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+27-10-2021 20:00:22.957 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+27-10-2021 20:00:23.578 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+27-10-2021 20:00:23.730 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+27-10-2021 20:00:23.732 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: direct://start1
+27-10-2021 20:00:23.734 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route3 started and consuming from: direct://faileendpoint
+27-10-2021 20:00:23.735 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 3 routes, of which 3 are started
+27-10-2021 20:00:23.736 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.780 seconds
+27-10-2021 20:00:23.740 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+27-10-2021 20:00:23.750 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+27-10-2021 20:00:23.765 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+27-10-2021 20:00:23.789 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+27-10-2021 20:00:23.797 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 6.814 seconds (JVM running for 8.263)
+27-10-2021 20:00:24.755 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+27-10-2021 20:00:55.269 [Camel (camel-1) thread #1 - timer://hello] ERROR route1.log - DataException in the route djlkfdjjgj
+27-10-2021 20:00:55.270 [Camel (camel-1) thread #1 - timer://hello] INFO  route3.log - faileendpoint Invoked
+27-10-2021 20:00:55.275 [Camel (camel-1) thread #1 - timer://hello] ERROR o.a.c.processor.DefaultErrorHandler.log - Failed delivery for (MessageId: ID-DESKTOP-AH2VL3Q-1635345021664-0-2 on ExchangeId: ID-DESKTOP-AH2VL3Q-1635345021664-0-1). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: No records have been defined in the CSV. Processed by failure processor: FatalFallbackErrorHandler[Pipeline[[Channel[Log(route1)[DataException in the route ${body}]], Channel[sendTo(direct://faileendpoint)]]]]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://hello?period=10s                                                      ] [     30518]
+[route1            ] [log2              ] [log                                                                           ] [         3]
+[route1            ] [choice1           ] [when[{header{header(env)} != mock}]choice[]                                   ] [     30420]
+[route1            ] [pollEnrich1       ] [pollEnrich[constant{file:data/input?delete=true&readLock=none&moveFailed=error] [     30411]
+[route1            ] [to2               ] [{{toRoute1}}                                                                  ] [         5]
+[route1            ] [unmarshal1        ] [unmarshal[org.apache.camel.model.DataFormatDefinition@81773c5]                ] [        89]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [direct:faileendpoint                                                          ] [         1]
+[route3            ] [log6              ] [log                                                                           ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: No records have been defined in the CSV
+	at org.apache.camel.dataformat.bindy.csv.BindyCsvDataFormat.unmarshal(BindyCsvDataFormat.java:213)
+	at org.apache.camel.processor.UnmarshalProcessor.process(UnmarshalProcessor.java:69)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:197)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:79)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+27-10-2021 20:00:55.276 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.c.file.GenericFileOnCompletion.processStrategyRollback - Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy@4309143e for file: GenericFile[fileAdd.txt]
+27-10-2021 20:00:55.308 [Camel (camel-1) thread #1 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-DESKTOP-AH2VL3Q-1635345021664-0-1]. Caused by: [java.lang.IllegalArgumentException - No records have been defined in the CSV]
+java.lang.IllegalArgumentException: No records have been defined in the CSV
+	at org.apache.camel.dataformat.bindy.csv.BindyCsvDataFormat.unmarshal(BindyCsvDataFormat.java:213)
+	at org.apache.camel.processor.UnmarshalProcessor.process(UnmarshalProcessor.java:69)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:197)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:79)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+27-10-2021 20:00:55.310 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
