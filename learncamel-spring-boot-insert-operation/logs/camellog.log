@@ -1,0 +1,180 @@
+05-11-2021 08:31:58.238 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+05-11-2021 08:31:58.246 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@247bddad: startup date [Wed Nov 03 20:19:45 IST 2021]; root of context hierarchy
+05-11-2021 08:31:58.293 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+05-11-2021 08:31:58.295 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+05-11-2021 08:31:58.311 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+05-11-2021 08:31:58.431 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+05-11-2021 08:31:58.516 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635950992974-0-5, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=130237173]
+05-11-2021 08:31:59.530 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+05-11-2021 08:31:59.532 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635950992974-0-5, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=130238189]
+05-11-2021 08:32:00.442 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+05-11-2021 08:32:00.442 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+05-11-2021 08:32:00.444 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635950992974-0-5, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=130239101]
+05-11-2021 08:32:00.445 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+05-11-2021 08:32:00.458 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+05-11-2021 08:32:00.491 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+05-11-2021 08:32:00.503 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 1 day 12 hours
+05-11-2021 08:32:00.505 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.210 seconds
+05-11-2021 08:32:00.509 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+05-11-2021 08:32:00.517 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-11-2021 15:34:53.987 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 9176 (H:\db\learncamel-spring-boot-insert-operation\target\classes started by lenovo in H:\db\learncamel-spring-boot-insert-operation)
+05-11-2021 15:34:53.987 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2021 15:34:54.034 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b2c0e88: startup date [Fri Nov 05 15:34:54 IST 2021]; root of context hierarchy
+05-11-2021 15:34:54.188 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+05-11-2021 15:34:55.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e34978da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2021 15:34:55.992 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5733ef9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2021 15:34:56.679 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+05-11-2021 15:34:56.694 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2021 15:34:56.710 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+05-11-2021 15:34:56.857 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2021 15:34:56.857 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2823 ms
+05-11-2021 15:34:57.080 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+05-11-2021 15:34:57.082 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'webServlet' to [/h2-console/*]
+05-11-2021 15:34:57.082 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+05-11-2021 15:34:57.082 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+05-11-2021 15:34:57.082 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+05-11-2021 15:34:57.082 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+05-11-2021 15:34:57.759 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+05-11-2021 15:34:57.781 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+05-11-2021 15:34:57.897 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.0.12.Final}
+05-11-2021 15:34:57.897 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2021 15:34:57.897 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+05-11-2021 15:34:58.013 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+05-11-2021 15:34:58.198 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+05-11-2021 15:34:58.615 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate.execute - HHH000228: Running hbm2ddl schema update
+05-11-2021 15:34:58.684 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-11-2021 15:34:59.201 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b2c0e88: startup date [Fri Nov 05 15:34:54 IST 2021]; root of context hierarchy
+05-11-2021 15:34:59.273 [main] INFO  o.s.jdbc.datasource.init.ScriptUtils.executeSqlScript - Executing SQL script from URL [file:/H:/db/learncamel-spring-boot-insert-operation/target/classes/data.sql]
+05-11-2021 15:34:59.346 [main] INFO  o.s.jdbc.datasource.init.ScriptUtils.executeSqlScript - Executed SQL script from URL [file:/H:/db/learncamel-spring-boot-insert-operation/target/classes/data.sql] in 73 ms.
+05-11-2021 15:34:59.395 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+05-11-2021 15:34:59.396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+05-11-2021 15:34:59.454 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+05-11-2021 15:34:59.454 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+05-11-2021 15:34:59.537 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+05-11-2021 15:35:00.450 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+05-11-2021 15:35:00.640 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+05-11-2021 15:35:02.056 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+05-11-2021 15:35:02.068 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the Camel Route
+05-11-2021 15:35:02.133 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Ending the Camel Route
+05-11-2021 15:35:02.137 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2021 15:35:02.137 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2021 15:35:02.164 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+05-11-2021 15:35:02.164 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2021 15:35:02.663 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2021 15:35:02.746 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2021 15:35:02.750 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2021 15:35:02.750 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.605 seconds
+05-11-2021 15:35:02.754 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+05-11-2021 15:35:02.766 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+05-11-2021 15:35:02.866 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+05-11-2021 15:35:02.894 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+05-11-2021 15:35:02.902 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 9.269 seconds (JVM running for 10.984)
+05-11-2021 15:35:03.783 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+05-11-2021 15:35:10.418 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+05-11-2021 15:35:10.421 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b2c0e88: startup date [Fri Nov 05 15:34:54 IST 2021]; root of context hierarchy
+05-11-2021 15:35:10.422 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+05-11-2021 15:35:10.422 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+05-11-2021 15:35:10.426 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+05-11-2021 15:35:10.430 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+05-11-2021 15:35:10.450 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1636106699926-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=6679]
+05-11-2021 15:35:11.454 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+05-11-2021 15:35:11.456 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1636106699926-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=7685]
+05-11-2021 15:35:12.433 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+05-11-2021 15:35:12.433 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+05-11-2021 15:35:12.433 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1636106699926-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=8662]
+05-11-2021 15:35:12.437 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+05-11-2021 15:35:12.465 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+05-11-2021 15:35:12.470 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+05-11-2021 15:35:12.490 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 10.345 seconds
+05-11-2021 15:35:12.490 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.068 seconds
+05-11-2021 15:35:12.494 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+05-11-2021 15:35:12.498 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-11-2021 18:59:29.006 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 12196 (H:\db\learncamel-spring-boot-insert-operation\target\classes started by lenovo in H:\db\learncamel-spring-boot-insert-operation)
+05-11-2021 18:59:29.043 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2021 18:59:29.131 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@247bddad: startup date [Fri Nov 05 18:59:29 IST 2021]; root of context hierarchy
+05-11-2021 18:59:29.361 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+05-11-2021 18:59:32.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e17f63ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2021 18:59:32.137 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$3a929cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2021 18:59:32.990 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+05-11-2021 18:59:33.032 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2021 18:59:33.036 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+05-11-2021 18:59:33.315 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2021 18:59:33.316 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 4185 ms
+05-11-2021 18:59:33.663 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+05-11-2021 18:59:33.668 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'webServlet' to [/h2-console/*]
+05-11-2021 18:59:33.672 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+05-11-2021 18:59:33.673 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+05-11-2021 18:59:33.673 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+05-11-2021 18:59:33.673 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+05-11-2021 18:59:35.060 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+05-11-2021 18:59:35.076 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+05-11-2021 18:59:35.255 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.0.12.Final}
+05-11-2021 18:59:35.257 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2021 18:59:35.259 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+05-11-2021 18:59:35.377 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+05-11-2021 18:59:35.679 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+05-11-2021 18:59:36.309 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate.execute - HHH000228: Running hbm2ddl schema update
+05-11-2021 18:59:36.350 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-11-2021 18:59:37.031 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@247bddad: startup date [Fri Nov 05 18:59:29 IST 2021]; root of context hierarchy
+05-11-2021 18:59:37.131 [main] INFO  o.s.jdbc.datasource.init.ScriptUtils.executeSqlScript - Executing SQL script from URL [file:/H:/db/learncamel-spring-boot-insert-operation/target/classes/data.sql]
+05-11-2021 18:59:37.164 [main] INFO  o.s.jdbc.datasource.init.ScriptUtils.executeSqlScript - Executed SQL script from URL [file:/H:/db/learncamel-spring-boot-insert-operation/target/classes/data.sql] in 32 ms.
+05-11-2021 18:59:37.232 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+05-11-2021 18:59:37.233 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+05-11-2021 18:59:37.306 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+05-11-2021 18:59:37.307 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+05-11-2021 18:59:37.400 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+05-11-2021 18:59:37.949 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+05-11-2021 18:59:38.244 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+05-11-2021 18:59:39.592 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+05-11-2021 18:59:39.605 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the Camel Route
+05-11-2021 18:59:39.695 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Ending the Camel Route
+05-11-2021 18:59:39.696 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2021 18:59:39.697 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2021 18:59:39.719 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+05-11-2021 18:59:39.721 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2021 18:59:40.316 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2021 18:59:40.441 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2021 18:59:40.443 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2021 18:59:40.444 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.733 seconds
+05-11-2021 18:59:40.476 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+05-11-2021 18:59:40.499 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+05-11-2021 18:59:40.609 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+05-11-2021 18:59:40.660 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+05-11-2021 18:59:40.668 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 12.571 seconds (JVM running for 14.637)
+05-11-2021 18:59:41.456 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+05-11-2021 19:00:37.943 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - The unmarshaled object is [Item{transactionType='ADD', sku='100', itemDescription='Samsung TV', price=500.00}, Item{transactionType='ADD', sku='101', itemDescription='LG TV', price=500.00}]
+05-11-2021 19:00:37.995 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Record is Item{transactionType='ADD', sku='100', itemDescription='Samsung TV', price=500.00}
+05-11-2021 19:00:38.022 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Record is Item{transactionType='ADD', sku='101', itemDescription='LG TV', price=500.00}
+05-11-2021 19:00:38.165 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+05-11-2021 19:19:10.650 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+05-11-2021 19:19:10.651 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@247bddad: startup date [Fri Nov 05 18:59:29 IST 2021]; root of context hierarchy
+05-11-2021 19:19:10.659 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+05-11-2021 19:19:10.660 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+05-11-2021 19:19:10.662 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+05-11-2021 19:19:10.670 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+05-11-2021 19:19:10.700 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1636118977661-0-5, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1112535]
+05-11-2021 19:19:11.710 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+05-11-2021 19:19:11.711 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1636118977661-0-5, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1113546]
+05-11-2021 19:19:12.669 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+05-11-2021 19:19:12.669 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+05-11-2021 19:19:12.670 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1636118977661-0-5, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1114505]
+05-11-2021 19:19:12.672 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+05-11-2021 19:19:12.676 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+05-11-2021 19:19:12.874 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+05-11-2021 19:19:12.892 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 19 minutes
+05-11-2021 19:19:12.893 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.233 seconds
+05-11-2021 19:19:12.895 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+05-11-2021 19:19:12.899 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
