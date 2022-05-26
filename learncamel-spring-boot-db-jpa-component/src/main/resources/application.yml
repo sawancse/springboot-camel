@@ -1,0 +1,82 @@
+spring:
+  profiles:
+    active: dev
+camel.springboot.shutdownTimeout: 2
+
+---
+
+spring:
+  profiles: mock
+
+startRoute: direct:input
+fromRoute : file:data/input?delete=true&readLock=none
+toRoute1: mock:output
+
+message: DEV Environment
+
+
+---
+
+spring:
+  profiles: dev
+  datasource:
+    #driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: org.h2.Driver
+    #url:  jdbc:mysql://localhost:3306/localDB?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    #url:  jdbc:h2:~/test
+    url: jdbc:h2:mem:shedlock_DB;INIT=CREATE SCHEMA IF NOT EXISTS shedlock;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    #url: jdbc:h2:file:H:/data/demodb
+    username: sa
+    password: 
+  h2:
+    console.enabled: true
+    
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: false
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+startRoute: timer:hello?period=10s
+fromRoute : file:data/input?delete=true&readLock=none
+toRoute1: file:data/output
+toRoute2: jdbc:dataSource
+toRoute3: file:data/output?fileName=Success.txt
+
+message: DEV Environment
+
+---
+spring:
+  profiles: stage
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://localhost:3306/bootdb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    username: root
+    password:
+
+startRoute: timer:hello?period=10s
+fromRoute : file:data/input?delete=true&readLock=none
+toRoute1: file:data/output
+toRoute2: jdbc:dataSource
+toRoute3: file:data/output?fileName=Success.txt
+message: STAGE Environment
+
+---
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+
+startRoute: timer:hello?period=10s
+fromRoute : file:data/input?delete=true&readLock=none
+toRoute1: file:data/output
+toRoute2: jdbc:dataSource
+toRoute3: file:data/output?fileName=Success.txt
+
+message: PROD Environment
+---
