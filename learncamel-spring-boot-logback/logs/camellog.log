@@ -1,0 +1,848 @@
+25-10-2021 16:05:34.309 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 6892 (H:\camellogging\learncamel-spring-boot-logback\target\classes started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 16:05:34.311 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 16:05:34.352 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 16:05:34 IST 2021]; root of context hierarchy
+25-10-2021 16:05:34.489 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 16:05:35.272 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$4af01065] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 16:05:35.541 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+25-10-2021 16:05:35.549 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+25-10-2021 16:05:35.549 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+25-10-2021 16:05:35.624 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+25-10-2021 16:05:35.625 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1274 ms
+25-10-2021 16:05:35.755 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+25-10-2021 16:05:35.758 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+25-10-2021 16:05:35.759 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+25-10-2021 16:05:35.759 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+25-10-2021 16:05:35.760 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+25-10-2021 16:05:36.018 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 16:05:34 IST 2021]; root of context hierarchy
+25-10-2021 16:05:36.062 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 16:05:36.063 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 16:05:36.090 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 16:05:36.090 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 16:05:36.120 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 16:05:36.319 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 16:05:36.379 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 16:05:36.827 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+25-10-2021 16:05:36.857 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 16:05:36.857 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 16:05:36.864 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 16:05:36.865 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 16:05:37.056 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-10-2021 16:05:37.229 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+25-10-2021 16:05:37.230 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+25-10-2021 16:05:37.231 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.368 seconds
+25-10-2021 16:05:37.237 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+25-10-2021 16:05:37.243 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+25-10-2021 16:05:37.252 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+25-10-2021 16:05:37.264 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+25-10-2021 16:05:37.268 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 3.201 seconds (JVM running for 4.091)
+25-10-2021 16:05:38.260 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 16:06:00.674 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 16:31:55.991 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 16:31:55.992 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 16:05:34 IST 2021]; root of context hierarchy
+25-10-2021 16:31:55.994 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 16:31:55.995 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 16:31:55.996 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+25-10-2021 16:31:55.998 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+25-10-2021 16:31:56.005 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635158136242-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1555331]
+25-10-2021 16:31:56.842 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 16:31:57.006 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+25-10-2021 16:31:57.007 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635158136242-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1556333]
+25-10-2021 16:31:58.003 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+25-10-2021 16:31:58.004 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+25-10-2021 16:31:58.005 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635158136242-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1557331]
+25-10-2021 16:31:58.007 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+25-10-2021 16:31:58.018 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+25-10-2021 16:31:58.022 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+25-10-2021 16:31:58.032 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 26 minutes
+25-10-2021 16:31:58.033 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.038 seconds
+25-10-2021 16:31:58.036 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+25-10-2021 18:12:59.299 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 9448 (H:\camellogging\learncamel-spring-boot-logback\target\classes started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 18:12:59.310 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 18:12:59.367 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:12:59 IST 2021]; root of context hierarchy
+25-10-2021 18:12:59.579 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 18:13:01.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$628f0c35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 18:13:01.565 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+25-10-2021 18:13:01.582 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+25-10-2021 18:13:01.583 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+25-10-2021 18:13:01.720 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+25-10-2021 18:13:01.721 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2353 ms
+25-10-2021 18:13:01.969 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+25-10-2021 18:13:01.973 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+25-10-2021 18:13:01.974 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+25-10-2021 18:13:01.974 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+25-10-2021 18:13:01.974 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+25-10-2021 18:13:02.443 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:12:59 IST 2021]; root of context hierarchy
+25-10-2021 18:13:02.537 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 18:13:02.538 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 18:13:02.620 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:13:02.621 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:13:02.670 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:13:03.035 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 18:13:03.135 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 18:13:04.021 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+25-10-2021 18:13:04.088 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 18:13:04.089 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 18:13:04.103 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 18:13:04.104 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 18:13:04.781 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-10-2021 18:13:05.052 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+25-10-2021 18:13:05.054 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+25-10-2021 18:13:05.055 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.951 seconds
+25-10-2021 18:13:05.062 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+25-10-2021 18:13:05.072 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+25-10-2021 18:13:05.086 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+25-10-2021 18:13:05.099 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+25-10-2021 18:13:05.105 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 6.241 seconds (JVM running for 7.574)
+25-10-2021 18:13:06.066 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 18:13:54.117 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 18:13:54.118 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:12:59 IST 2021]; root of context hierarchy
+25-10-2021 18:13:54.121 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 18:13:54.122 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 18:13:54.123 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+25-10-2021 18:13:54.127 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+25-10-2021 18:13:54.141 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165782913-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=48078]
+25-10-2021 18:13:55.148 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+25-10-2021 18:13:55.148 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165782913-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=49085]
+25-10-2021 18:13:55.788 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 18:13:56.139 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+25-10-2021 18:13:56.139 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+25-10-2021 18:13:56.140 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165782913-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=50077]
+25-10-2021 18:13:56.141 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+25-10-2021 18:13:56.186 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+25-10-2021 18:13:56.188 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+25-10-2021 18:13:56.192 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 52.089 seconds
+25-10-2021 18:13:56.193 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.071 seconds
+25-10-2021 18:13:56.195 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+25-10-2021 18:14:51.328 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 11808 (H:\camellogging\learncamel-spring-boot-logback\target\classes started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 18:14:51.337 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 18:14:51.404 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:14:51 IST 2021]; root of context hierarchy
+25-10-2021 18:14:51.665 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 18:14:53.298 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$b0db6186] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 18:14:53.918 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+25-10-2021 18:14:53.928 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+25-10-2021 18:14:53.930 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+25-10-2021 18:14:54.046 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+25-10-2021 18:14:54.047 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2644 ms
+25-10-2021 18:14:54.273 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+25-10-2021 18:14:54.277 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+25-10-2021 18:14:54.278 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+25-10-2021 18:14:54.278 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+25-10-2021 18:14:54.279 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+25-10-2021 18:14:54.751 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:14:51 IST 2021]; root of context hierarchy
+25-10-2021 18:14:54.833 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 18:14:54.834 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 18:14:54.881 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:14:54.882 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:14:54.950 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:14:55.290 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 18:14:55.391 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 18:14:56.154 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+25-10-2021 18:14:56.227 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 18:14:56.228 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 18:14:56.259 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 18:14:56.261 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 18:14:56.730 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-10-2021 18:14:56.847 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+25-10-2021 18:14:56.849 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+25-10-2021 18:14:56.850 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.591 seconds
+25-10-2021 18:14:56.856 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+25-10-2021 18:14:56.881 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+25-10-2021 18:14:57.097 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+25-10-2021 18:14:57.132 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+25-10-2021 18:14:57.141 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 6.24 seconds (JVM running for 7.817)
+25-10-2021 18:14:57.865 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 18:16:10.677 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 18:16:10.677 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:14:51 IST 2021]; root of context hierarchy
+25-10-2021 18:16:10.681 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 18:16:10.682 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 18:16:10.683 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+25-10-2021 18:16:10.687 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+25-10-2021 18:16:10.696 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165895173-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=72834]
+25-10-2021 18:16:11.710 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+25-10-2021 18:16:11.710 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165895173-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=73848]
+25-10-2021 18:16:12.027 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 18:16:12.701 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+25-10-2021 18:16:12.701 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+25-10-2021 18:16:12.703 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165895173-0-1, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=74841]
+25-10-2021 18:16:12.704 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+25-10-2021 18:16:12.709 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+25-10-2021 18:16:12.713 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+25-10-2021 18:16:12.719 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 1 minute
+25-10-2021 18:16:12.721 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.039 seconds
+25-10-2021 18:16:12.725 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+25-10-2021 18:16:22.531 [main] INFO  c.l.LearncamelSpringBootApplication.logStarting - Starting LearncamelSpringBootApplication on DESKTOP-AH2VL3Q with PID 10724 (H:\camellogging\learncamel-spring-boot-logback\target\classes started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 18:16:22.536 [main] INFO  c.l.LearncamelSpringBootApplication.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 18:16:22.597 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:16:22 IST 2021]; root of context hierarchy
+25-10-2021 18:16:22.776 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 18:16:24.319 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$b0db6186] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 18:16:24.798 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+25-10-2021 18:16:24.809 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+25-10-2021 18:16:24.811 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+25-10-2021 18:16:24.947 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+25-10-2021 18:16:24.951 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2353 ms
+25-10-2021 18:16:25.220 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+25-10-2021 18:16:25.225 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+25-10-2021 18:16:25.226 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+25-10-2021 18:16:25.226 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+25-10-2021 18:16:25.226 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+25-10-2021 18:16:25.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:16:22 IST 2021]; root of context hierarchy
+25-10-2021 18:16:25.819 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 18:16:25.821 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 18:16:25.886 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:16:25.887 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:16:25.948 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 18:16:26.308 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 18:16:26.395 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 18:16:27.264 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+25-10-2021 18:16:27.366 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 18:16:27.367 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 18:16:27.379 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 18:16:27.381 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 18:16:27.868 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-10-2021 18:16:28.019 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+25-10-2021 18:16:28.021 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+25-10-2021 18:16:28.023 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.643 seconds
+25-10-2021 18:16:28.032 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+25-10-2021 18:16:28.270 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+25-10-2021 18:16:28.289 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+25-10-2021 18:16:28.308 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+25-10-2021 18:16:28.316 [main] INFO  c.l.LearncamelSpringBootApplication.logStarted - Started LearncamelSpringBootApplication in 6.245 seconds (JVM running for 7.867)
+25-10-2021 18:16:29.050 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 18:16:29.053 [Camel (camel-1) thread #1 - timer://hello] INFO  .log - Exchange[ExchangePattern: InOnly, BodyType: null, Body: [Body is null]]
+25-10-2021 18:17:11.023 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 18:17:11.027 [Camel (camel-1) thread #1 - timer://hello] INFO  .log - Exchange[ExchangePattern: InOnly, BodyType: null, Body: [Body is null]]
+25-10-2021 18:44:19.783 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 18:44:19.784 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f6efaab: startup date [Mon Oct 25 18:16:22 IST 2021]; root of context hierarchy
+25-10-2021 18:44:19.793 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 18:44:19.794 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 18:44:19.797 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 2 seconds)
+25-10-2021 18:44:19.805 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route1 = 1]
+25-10-2021 18:44:19.821 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165986187-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1628798]
+25-10-2021 18:44:20.713 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+25-10-2021 18:44:20.836 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route1 = 1]
+25-10-2021 18:44:20.837 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165986187-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1629814]
+25-10-2021 18:44:21.811 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+25-10-2021 18:44:21.811 [Camel (camel-1) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+25-10-2021 18:44:21.813 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635165986187-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=1630790]
+25-10-2021 18:44:21.814 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 2 seconds
+25-10-2021 18:44:21.822 [Camel (camel-1) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route1 shutdown complete, was consuming from: timer://hello?period=10s
+25-10-2021 18:44:21.827 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+25-10-2021 18:44:21.833 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 27 minutes
+25-10-2021 18:44:21.833 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 2.039 seconds
+25-10-2021 18:44:21.835 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+25-10-2021 19:08:20.697 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteMockTest], using SpringBootContextLoader
+25-10-2021 19:08:20.733 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteMockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:08:20.736 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteMockTest]: SimpleCamelRouteMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:08:21.038 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:08:21.067 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:08:21.106 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e82df6a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f197a46, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@636be97c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50a638b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1817d444, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ca8564a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50b472aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31368b99, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1725dc0f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3911c2a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4ac3c60d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4facf68f]
+25-10-2021 19:08:21.121 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+25-10-2021 19:08:21.123 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:08:21.124 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:08:21.137 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:08:21.151 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:08:21.156 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71809907, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52303, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@661972b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@323b36e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@44ebcd03]
+25-10-2021 19:08:21.183 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteMockTest], using SpringBootContextLoader
+25-10-2021 19:08:21.184 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteMockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:08:21.185 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteMockTest]: SimpleCamelRouteMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:08:21.195 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:08:21.207 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:08:21.228 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35e2d654, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1bd4fdd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55183b20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f83df68, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cf0e0ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d8995e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@130d63be, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@42a48628, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@293a5bf6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6aeb35e6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1283bb96, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74f0ea28]
+25-10-2021 19:08:21.240 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:08:22.552 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStarting - Starting SimpleCamelRouteMockTest on DESKTOP-AH2VL3Q with PID 13520 (started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 19:08:22.554 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStartupProfileInfo - The following profiles are active: mock
+25-10-2021 19:08:22.670 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:08:22 IST 2021]; root of context hierarchy
+25-10-2021 19:08:23.592 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 19:08:26.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f3a554aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 19:08:28.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:08:22 IST 2021]; root of context hierarchy
+25-10-2021 19:08:28.551 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 19:08:28.554 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 19:08:28.648 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:08:28.649 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:08:28.809 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:08:29.703 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 19:08:30.259 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 19:08:32.963 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 19:08:32.965 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 19:08:33.011 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStarted - Started SimpleCamelRouteMockTest in 11.43 seconds (JVM running for 13.76)
+25-10-2021 19:08:33.030 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+25-10-2021 19:08:33.128 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.doWith - Autowired annotation should only be used on methods with parameters: protected org.apache.camel.CamelContext com.learncamel.route.SimpleCamelRouteMockTest.createCamelContext()
+25-10-2021 19:08:33.194 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteMockTest.testMoveFileMock
+25-10-2021 19:08:33.224 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+25-10-2021 19:08:33.227 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+25-10-2021 19:08:33.229 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 19:08:33.232 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 19:08:34.158 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 19:08:34.271 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 1.017 seconds
+25-10-2021 19:08:34.275 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.117 seconds
+25-10-2021 19:08:34.288 [main] WARN  o.s.test.context.TestContextManager.beforeTestMethod - Caught exception while allowing TestExecutionListener [org.apache.camel.test.spring.CamelSpringBootExecutionListener@780ee3ad] to process 'before' execution of test method [public void com.learncamel.route.SimpleCamelRouteMockTest.testMoveFileMock() throws java.lang.InterruptedException] for test instance [com.learncamel.route.SimpleCamelRouteMockTest@2c2aab92]
+org.apache.camel.RuntimeCamelException: org.apache.camel.FailedToCreateRouteException: Failed to create route route2: Route(route2)[[From[ timer:hello?period=10s]] -> [Log[Timer ... because of Failed to resolve endpoint:  timer:hello?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:136)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler$6.execute(CamelAnnotationsHandler.java:272)
+	at org.apache.camel.test.spring.CamelSpringTestHelper.doToSpringCamelContexts(CamelSpringTestHelper.java:92)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler.handleCamelContextStartup(CamelAnnotationsHandler.java:267)
+	at org.apache.camel.test.spring.CamelSpringBootExecutionListener.beforeTestMethod(CamelSpringBootExecutionListener.java:67)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.camel.FailedToCreateRouteException: Failed to create route route2: Route(route2)[[From[ timer:hello?period=10s]] -> [Log[Timer ... because of Failed to resolve endpoint:  timer:hello?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:209)
+	at org.apache.camel.impl.DefaultCamelContext.startRoute(DefaultCamelContext.java:1148)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteDefinitions(DefaultCamelContext.java:3727)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:3441)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:208)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3249)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3245)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:3245)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:3168)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:133)
+	... 32 common frames omitted
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint:  timer:hello?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:836)
+	at org.apache.camel.impl.DefaultCamelContext.getEndpoint(DefaultCamelContext.java:690)
+	at org.apache.camel.util.CamelContextHelper.getMandatoryEndpoint(CamelContextHelper.java:80)
+	at org.apache.camel.model.RouteDefinition.resolveEndpoint(RouteDefinition.java:219)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:115)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:121)
+	at org.apache.camel.model.FromDefinition.resolveEndpoint(FromDefinition.java:69)
+	at org.apache.camel.impl.DefaultRouteContext.getEndpoint(DefaultRouteContext.java:97)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:1278)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:204)
+	... 43 common frames omitted
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.checkChar(URI.java:3031)
+	at java.net.URI$Parser.parse(URI.java:3047)
+	at java.net.URI.<init>(URI.java:588)
+	at org.apache.camel.util.URISupport.normalizeUri(URISupport.java:533)
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:834)
+	... 52 common frames omitted
+25-10-2021 19:08:34.294 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - ********************************************************************************
+25-10-2021 19:08:34.295 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - Testing done: testMoveFileMock(com.learncamel.route.SimpleCamelRouteMockTest)
+25-10-2021 19:08:34.298 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - Took: 13.054 seconds (13054 millis)
+25-10-2021 19:08:34.299 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - ********************************************************************************
+25-10-2021 19:08:34.495 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:08:22 IST 2021]; root of context hierarchy
+25-10-2021 19:08:34.510 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 19:08:34.565 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+25-10-2021 19:08:34.592 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:08:34.595 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:08:34.641 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:08:34.651 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:08:34.655 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6febec41, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3de88f64, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e8afdad, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79b8ecb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3722f39d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4ec8d9b2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@57b63253, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c0013b8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c1ea7be, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2493eec6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@42d174ad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ec0229c]
+25-10-2021 19:08:34.668 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:08:34.917 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on DESKTOP-AH2VL3Q with PID 13520 (started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 19:08:34.918 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 19:08:34.927 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3e6acec2: startup date [Mon Oct 25 19:08:34 IST 2021]; root of context hierarchy
+25-10-2021 19:08:36.550 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f3a554aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 19:08:37.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3e6acec2: startup date [Mon Oct 25 19:08:34 IST 2021]; root of context hierarchy
+25-10-2021 19:08:37.627 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 19:08:37.633 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 19:08:37.764 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:08:37.767 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:08:37.918 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:08:38.322 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 19:08:38.399 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 19:08:39.887 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 19:08:39.888 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 19:08:39.907 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 5.171 seconds (JVM running for 20.656)
+25-10-2021 19:08:39.909 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+25-10-2021 19:08:39.955 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+25-10-2021 19:08:39.956 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+25-10-2021 19:08:39.956 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+25-10-2021 19:08:39.958 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+25-10-2021 19:08:39.959 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 19:08:40.240 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+25-10-2021 19:08:40.250 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.293 seconds
+25-10-2021 19:08:40.251 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.011 seconds
+25-10-2021 19:08:40.252 [main] WARN  o.s.test.context.TestContextManager.beforeTestMethod - Caught exception while allowing TestExecutionListener [org.apache.camel.test.spring.CamelSpringBootExecutionListener@1be4f05c] to process 'before' execution of test method [public void com.learncamel.route.SimpleCamelRouteTest.testMoveFile() throws java.lang.InterruptedException] for test instance [com.learncamel.route.SimpleCamelRouteTest@4202bfe8]
+org.apache.camel.RuntimeCamelException: org.apache.camel.FailedToCreateRouteException: Failed to create route route4: Route(route4)[[From[ timer:hello?period=10s]] -> [Log[Timer ... because of Failed to resolve endpoint:  timer:hello?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:136)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler$6.execute(CamelAnnotationsHandler.java:272)
+	at org.apache.camel.test.spring.CamelSpringTestHelper.doToSpringCamelContexts(CamelSpringTestHelper.java:92)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler.handleCamelContextStartup(CamelAnnotationsHandler.java:267)
+	at org.apache.camel.test.spring.CamelSpringBootExecutionListener.beforeTestMethod(CamelSpringBootExecutionListener.java:67)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.camel.FailedToCreateRouteException: Failed to create route route4: Route(route4)[[From[ timer:hello?period=10s]] -> [Log[Timer ... because of Failed to resolve endpoint:  timer:hello?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:209)
+	at org.apache.camel.impl.DefaultCamelContext.startRoute(DefaultCamelContext.java:1148)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteDefinitions(DefaultCamelContext.java:3727)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:3441)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:208)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3249)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3245)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:3245)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:3168)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:133)
+	... 28 common frames omitted
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint:  timer:hello?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:836)
+	at org.apache.camel.impl.DefaultCamelContext.getEndpoint(DefaultCamelContext.java:690)
+	at org.apache.camel.util.CamelContextHelper.getMandatoryEndpoint(CamelContextHelper.java:80)
+	at org.apache.camel.model.RouteDefinition.resolveEndpoint(RouteDefinition.java:219)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:115)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:121)
+	at org.apache.camel.model.FromDefinition.resolveEndpoint(FromDefinition.java:69)
+	at org.apache.camel.impl.DefaultRouteContext.getEndpoint(DefaultRouteContext.java:97)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:1278)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:204)
+	... 39 common frames omitted
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: %20timer:hello?period=10s
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.checkChar(URI.java:3031)
+	at java.net.URI$Parser.parse(URI.java:3047)
+	at java.net.URI.<init>(URI.java:588)
+	at org.apache.camel.util.URISupport.normalizeUri(URISupport.java:533)
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:834)
+	... 48 common frames omitted
+25-10-2021 19:08:40.260 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@3e6acec2: startup date [Mon Oct 25 19:08:34 IST 2021]; root of context hierarchy
+25-10-2021 19:08:40.265 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 19:10:46.034 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteMockTest], using SpringBootContextLoader
+25-10-2021 19:10:46.071 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteMockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:10:46.076 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteMockTest]: SimpleCamelRouteMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:10:46.418 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:10:46.454 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:10:46.496 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e82df6a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f197a46, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@636be97c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50a638b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1817d444, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ca8564a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50b472aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31368b99, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1725dc0f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3911c2a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4ac3c60d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4facf68f]
+25-10-2021 19:10:46.517 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+25-10-2021 19:10:46.521 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:10:46.522 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:10:46.538 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:10:46.550 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:10:46.569 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71809907, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52303, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@661972b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@323b36e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@44ebcd03]
+25-10-2021 19:10:46.606 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteMockTest], using SpringBootContextLoader
+25-10-2021 19:10:46.608 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteMockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:10:46.608 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteMockTest]: SimpleCamelRouteMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:10:46.622 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:10:46.630 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:10:46.639 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35e2d654, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1bd4fdd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55183b20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f83df68, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cf0e0ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d8995e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@130d63be, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@42a48628, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@293a5bf6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6aeb35e6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1283bb96, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74f0ea28]
+25-10-2021 19:10:46.660 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:10:48.025 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStarting - Starting SimpleCamelRouteMockTest on DESKTOP-AH2VL3Q with PID 6588 (started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 19:10:48.026 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStartupProfileInfo - The following profiles are active: mock
+25-10-2021 19:10:48.130 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:10:48 IST 2021]; root of context hierarchy
+25-10-2021 19:10:49.091 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 19:10:52.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$2167cbb9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 19:10:55.145 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:10:48 IST 2021]; root of context hierarchy
+25-10-2021 19:10:55.374 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 19:10:55.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 19:10:55.554 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:10:55.555 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:10:55.692 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:10:56.595 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 19:10:57.245 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 19:11:00.832 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 19:11:00.836 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 19:11:00.891 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStarted - Started SimpleCamelRouteMockTest in 13.837 seconds (JVM running for 16.219)
+25-10-2021 19:11:00.958 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+25-10-2021 19:11:01.084 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.doWith - Autowired annotation should only be used on methods with parameters: protected org.apache.camel.CamelContext com.learncamel.route.SimpleCamelRouteMockTest.createCamelContext()
+25-10-2021 19:11:01.190 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteMockTest.testMoveFileMock
+25-10-2021 19:11:01.193 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+25-10-2021 19:11:01.195 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+25-10-2021 19:11:01.197 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 19:11:01.199 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 19:11:02.248 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 19:11:02.325 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 1.127 seconds
+25-10-2021 19:11:02.326 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.078 seconds
+25-10-2021 19:11:02.330 [main] WARN  o.s.test.context.TestContextManager.beforeTestMethod - Caught exception while allowing TestExecutionListener [org.apache.camel.test.spring.CamelSpringBootExecutionListener@5b1ff8cd] to process 'before' execution of test method [public void com.learncamel.route.SimpleCamelRouteMockTest.testMoveFileMock() throws java.lang.InterruptedException] for test instance [com.learncamel.route.SimpleCamelRouteMockTest@6cee903a]
+org.apache.camel.RuntimeCamelException: org.apache.camel.FailedToCreateRouteException: Failed to create route route2: Route(route2)[[From[ timer:hello1?period=10s]] -> [Log[Timer... because of Failed to resolve endpoint:  timer:hello1?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:136)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler$6.execute(CamelAnnotationsHandler.java:272)
+	at org.apache.camel.test.spring.CamelSpringTestHelper.doToSpringCamelContexts(CamelSpringTestHelper.java:92)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler.handleCamelContextStartup(CamelAnnotationsHandler.java:267)
+	at org.apache.camel.test.spring.CamelSpringBootExecutionListener.beforeTestMethod(CamelSpringBootExecutionListener.java:67)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.camel.FailedToCreateRouteException: Failed to create route route2: Route(route2)[[From[ timer:hello1?period=10s]] -> [Log[Timer... because of Failed to resolve endpoint:  timer:hello1?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:209)
+	at org.apache.camel.impl.DefaultCamelContext.startRoute(DefaultCamelContext.java:1148)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteDefinitions(DefaultCamelContext.java:3727)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:3441)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:208)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3249)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3245)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:3245)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:3168)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:133)
+	... 32 common frames omitted
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint:  timer:hello1?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:836)
+	at org.apache.camel.impl.DefaultCamelContext.getEndpoint(DefaultCamelContext.java:690)
+	at org.apache.camel.util.CamelContextHelper.getMandatoryEndpoint(CamelContextHelper.java:80)
+	at org.apache.camel.model.RouteDefinition.resolveEndpoint(RouteDefinition.java:219)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:115)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:121)
+	at org.apache.camel.model.FromDefinition.resolveEndpoint(FromDefinition.java:69)
+	at org.apache.camel.impl.DefaultRouteContext.getEndpoint(DefaultRouteContext.java:97)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:1278)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:204)
+	... 43 common frames omitted
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.checkChar(URI.java:3031)
+	at java.net.URI$Parser.parse(URI.java:3047)
+	at java.net.URI.<init>(URI.java:588)
+	at org.apache.camel.util.URISupport.normalizeUri(URISupport.java:533)
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:834)
+	... 52 common frames omitted
+25-10-2021 19:11:02.333 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - ********************************************************************************
+25-10-2021 19:11:02.369 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - Testing done: testMoveFileMock(com.learncamel.route.SimpleCamelRouteMockTest)
+25-10-2021 19:11:02.371 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - Took: 15.674 seconds (15674 millis)
+25-10-2021 19:11:02.372 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - ********************************************************************************
+25-10-2021 19:11:02.575 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:10:48 IST 2021]; root of context hierarchy
+25-10-2021 19:11:02.588 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 19:11:02.667 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+25-10-2021 19:11:02.721 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:11:02.722 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:11:02.795 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:11:02.801 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:11:02.809 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c31e410, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9880a15, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6febec41, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3de88f64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e8afdad, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79b8ecb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3722f39d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4ec8d9b2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57b63253, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c0013b8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c1ea7be, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2493eec6]
+25-10-2021 19:11:02.838 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:11:03.155 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on DESKTOP-AH2VL3Q with PID 6588 (started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 19:11:03.156 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 19:11:03.181 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@846b47: startup date [Mon Oct 25 19:11:03 IST 2021]; root of context hierarchy
+25-10-2021 19:11:04.774 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$2167cbb9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 19:11:05.657 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@846b47: startup date [Mon Oct 25 19:11:03 IST 2021]; root of context hierarchy
+25-10-2021 19:11:05.714 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 19:11:05.716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 19:11:05.846 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:11:05.848 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:11:05.926 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:11:06.276 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 19:11:06.358 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 19:11:07.953 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 19:11:07.955 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 19:11:07.963 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 5.105 seconds (JVM running for 23.29)
+25-10-2021 19:11:07.967 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+25-10-2021 19:11:07.991 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+25-10-2021 19:11:07.992 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+25-10-2021 19:11:07.993 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+25-10-2021 19:11:07.997 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+25-10-2021 19:11:08.011 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 19:11:08.257 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+25-10-2021 19:11:08.273 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.279 seconds
+25-10-2021 19:11:08.276 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.020 seconds
+25-10-2021 19:11:08.279 [main] WARN  o.s.test.context.TestContextManager.beforeTestMethod - Caught exception while allowing TestExecutionListener [org.apache.camel.test.spring.CamelSpringBootExecutionListener@34c2e03d] to process 'before' execution of test method [public void com.learncamel.route.SimpleCamelRouteTest.testMoveFile() throws java.lang.InterruptedException] for test instance [com.learncamel.route.SimpleCamelRouteTest@17e4beda]
+org.apache.camel.RuntimeCamelException: org.apache.camel.FailedToCreateRouteException: Failed to create route route4: Route(route4)[[From[ timer:hello1?period=10s]] -> [Log[Timer... because of Failed to resolve endpoint:  timer:hello1?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:136)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler$6.execute(CamelAnnotationsHandler.java:272)
+	at org.apache.camel.test.spring.CamelSpringTestHelper.doToSpringCamelContexts(CamelSpringTestHelper.java:92)
+	at org.apache.camel.test.spring.CamelAnnotationsHandler.handleCamelContextStartup(CamelAnnotationsHandler.java:267)
+	at org.apache.camel.test.spring.CamelSpringBootExecutionListener.beforeTestMethod(CamelSpringBootExecutionListener.java:67)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.camel.FailedToCreateRouteException: Failed to create route route4: Route(route4)[[From[ timer:hello1?period=10s]] -> [Log[Timer... because of Failed to resolve endpoint:  timer:hello1?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:209)
+	at org.apache.camel.impl.DefaultCamelContext.startRoute(DefaultCamelContext.java:1148)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteDefinitions(DefaultCamelContext.java:3727)
+	at org.apache.camel.impl.DefaultCamelContext.doStartCamel(DefaultCamelContext.java:3441)
+	at org.apache.camel.impl.DefaultCamelContext.access$000(DefaultCamelContext.java:208)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3249)
+	at org.apache.camel.impl.DefaultCamelContext$2.call(DefaultCamelContext.java:3245)
+	at org.apache.camel.impl.DefaultCamelContext.doWithDefinedClassLoader(DefaultCamelContext.java:3268)
+	at org.apache.camel.impl.DefaultCamelContext.doStart(DefaultCamelContext.java:3245)
+	at org.apache.camel.support.ServiceSupport.start(ServiceSupport.java:61)
+	at org.apache.camel.impl.DefaultCamelContext.start(DefaultCamelContext.java:3168)
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:133)
+	... 28 common frames omitted
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint:  timer:hello1?period=10s due to: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:836)
+	at org.apache.camel.impl.DefaultCamelContext.getEndpoint(DefaultCamelContext.java:690)
+	at org.apache.camel.util.CamelContextHelper.getMandatoryEndpoint(CamelContextHelper.java:80)
+	at org.apache.camel.model.RouteDefinition.resolveEndpoint(RouteDefinition.java:219)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:115)
+	at org.apache.camel.impl.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:121)
+	at org.apache.camel.model.FromDefinition.resolveEndpoint(FromDefinition.java:69)
+	at org.apache.camel.impl.DefaultRouteContext.getEndpoint(DefaultRouteContext.java:97)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:1278)
+	at org.apache.camel.model.RouteDefinition.addRoutes(RouteDefinition.java:204)
+	... 39 common frames omitted
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: %20timer:hello1?period=10s
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.checkChar(URI.java:3031)
+	at java.net.URI$Parser.parse(URI.java:3047)
+	at java.net.URI.<init>(URI.java:588)
+	at org.apache.camel.util.URISupport.normalizeUri(URISupport.java:533)
+	at org.apache.camel.impl.DefaultCamelContext.normalizeEndpointUri(DefaultCamelContext.java:834)
+	... 48 common frames omitted
+25-10-2021 19:11:08.294 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@846b47: startup date [Mon Oct 25 19:11:03 IST 2021]; root of context hierarchy
+25-10-2021 19:11:08.296 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 19:13:54.613 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteMockTest], using SpringBootContextLoader
+25-10-2021 19:13:54.624 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteMockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:13:54.630 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteMockTest]: SimpleCamelRouteMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:13:54.919 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:13:54.943 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:13:55.005 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e82df6a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f197a46, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@636be97c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50a638b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1817d444, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ca8564a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50b472aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31368b99, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1725dc0f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3911c2a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4ac3c60d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4facf68f]
+25-10-2021 19:13:55.027 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+25-10-2021 19:13:55.029 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:13:55.030 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:13:55.042 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:13:55.052 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:13:55.115 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71809907, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52303, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@661972b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@323b36e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@44ebcd03]
+25-10-2021 19:13:55.139 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteMockTest], using SpringBootContextLoader
+25-10-2021 19:13:55.141 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteMockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:13:55.142 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteMockTest]: SimpleCamelRouteMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:13:55.163 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:13:55.170 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:13:55.176 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35e2d654, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1bd4fdd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55183b20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f83df68, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cf0e0ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d8995e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@130d63be, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@42a48628, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@293a5bf6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6aeb35e6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1283bb96, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74f0ea28]
+25-10-2021 19:13:55.186 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteMockTest
+25-10-2021 19:13:56.610 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStarting - Starting SimpleCamelRouteMockTest on DESKTOP-AH2VL3Q with PID 10160 (started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 19:13:56.612 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStartupProfileInfo - The following profiles are active: mock
+25-10-2021 19:13:56.694 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:13:56 IST 2021]; root of context hierarchy
+25-10-2021 19:13:57.817 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+25-10-2021 19:14:00.643 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5f66d125] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 19:14:02.259 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:13:56 IST 2021]; root of context hierarchy
+25-10-2021 19:14:02.496 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 19:14:02.498 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 19:14:02.673 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:14:02.683 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:14:03.017 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:14:04.030 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 19:14:04.817 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 19:14:07.254 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 19:14:07.258 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 19:14:07.299 [main] INFO  c.l.route.SimpleCamelRouteMockTest.logStarted - Started SimpleCamelRouteMockTest in 11.568 seconds (JVM running for 13.935)
+25-10-2021 19:14:07.325 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+25-10-2021 19:14:07.436 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.doWith - Autowired annotation should only be used on methods with parameters: protected org.apache.camel.CamelContext com.learncamel.route.SimpleCamelRouteMockTest.createCamelContext()
+25-10-2021 19:14:07.637 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteMockTest.testMoveFileMock
+25-10-2021 19:14:07.638 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+25-10-2021 19:14:07.639 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+25-10-2021 19:14:07.641 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+25-10-2021 19:14:07.664 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 19:14:08.789 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-10-2021 19:14:09.141 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route-1 started and consuming from: direct://input
+25-10-2021 19:14:09.147 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route-2 started and consuming from: timer://hello1?period=10s
+25-10-2021 19:14:09.149 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 2 routes, of which 2 are started
+25-10-2021 19:14:09.151 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 1.509 seconds
+25-10-2021 19:14:09.394 [main] INFO  c.l.route.SimpleCamelRouteMockTest.setUp - ********************************************************************************
+25-10-2021 19:14:09.395 [main] INFO  c.l.route.SimpleCamelRouteMockTest.setUp - Testing: testMoveFileMock(com.learncamel.route.SimpleCamelRouteMockTest)
+25-10-2021 19:14:09.395 [main] INFO  c.l.route.SimpleCamelRouteMockTest.setUp - ********************************************************************************
+25-10-2021 19:14:09.558 [main] INFO  route-1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 19:14:09.568 [main] INFO  .log - Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DESKTOP-AH2VL3Q-1635169443769-0-1, env=mock}, BodyType: String, Body: type,sku#,itemdescription,price
+ADD,100,Samsung TV,500
+ADD,101,LG TV,500]
+25-10-2021 19:14:09.671 [main] INFO  route-1.log - mock env flow and the body is type,sku#,itemdescription,price
+ADD,100,Samsung TV,500
+ADD,101,LG TV,500
+25-10-2021 19:14:09.675 [main] INFO  o.a.c.component.mock.MockEndpoint.assertIsSatisfied - Asserting: mock://output is satisfied
+25-10-2021 19:14:09.677 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - ********************************************************************************
+25-10-2021 19:14:09.678 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - Testing done: testMoveFileMock(com.learncamel.route.SimpleCamelRouteMockTest)
+25-10-2021 19:14:09.679 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - Took: 0.243 seconds (243 millis)
+25-10-2021 19:14:09.681 [main] INFO  c.l.route.SimpleCamelRouteMockTest.tearDown - ********************************************************************************
+25-10-2021 19:14:09.683 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+25-10-2021 19:14:09.685 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 2 routes (timeout 10 seconds)
+25-10-2021 19:14:09.828 [Camel (camel-1) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route-2 shutdown complete, was consuming from: timer://hello1?period=10s
+25-10-2021 19:14:09.830 [Camel (camel-1) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route-1 shutdown complete, was consuming from: direct://input
+25-10-2021 19:14:09.839 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 2 routes completed in 0 seconds
+25-10-2021 19:14:09.909 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 2.268 seconds
+25-10-2021 19:14:09.910 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.227 seconds
+25-10-2021 19:14:10.038 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Mon Oct 25 19:13:56 IST 2021]; root of context hierarchy
+25-10-2021 19:14:10.051 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 19:14:10.060 [main] INFO  c.l.route.SimpleCamelRouteMockTest.afterTestMethod - ********************************************************************************
+25-10-2021 19:14:10.061 [main] INFO  c.l.route.SimpleCamelRouteMockTest.afterTestMethod - Testing done: testMoveFileMock(com.learncamel.route.SimpleCamelRouteMockTest)
+25-10-2021 19:14:10.061 [main] INFO  c.l.route.SimpleCamelRouteMockTest.afterTestMethod - Took: 0.908 seconds (908 millis)
+25-10-2021 19:14:10.062 [main] INFO  c.l.route.SimpleCamelRouteMockTest.afterTestMethod - ********************************************************************************
+25-10-2021 19:14:10.065 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+25-10-2021 19:14:10.066 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+25-10-2021 19:14:10.066 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-10-2021 19:14:10.074 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringBootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:14:10.079 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+25-10-2021 19:14:10.105 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@73dbe25, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@bfd97fb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6bfdaa7a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e3d168e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@149b53fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@73be4cdd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@751686aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@638977e0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2dc3ece8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c1a8529, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6d7865d6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45e639ee]
+25-10-2021 19:14:10.125 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootJUnit4ClassRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+25-10-2021 19:14:10.666 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on DESKTOP-AH2VL3Q with PID 10160 (started by lenovo in H:\camellogging\learncamel-spring-boot-logback)
+25-10-2021 19:14:10.667 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+25-10-2021 19:14:10.677 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d664323: startup date [Mon Oct 25 19:14:10 IST 2021]; root of context hierarchy
+25-10-2021 19:14:13.128 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5f66d125] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25-10-2021 19:14:13.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4d664323: startup date [Mon Oct 25 19:14:10 IST 2021]; root of context hierarchy
+25-10-2021 19:14:14.011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+25-10-2021 19:14:14.019 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+25-10-2021 19:14:14.130 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:14:14.130 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:14:14.279 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+25-10-2021 19:14:14.695 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+25-10-2021 19:14:14.950 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+25-10-2021 19:14:16.549 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+25-10-2021 19:14:16.550 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+25-10-2021 19:14:16.570 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 6.391 seconds (JVM running for 23.206)
+25-10-2021 19:14:16.573 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+25-10-2021 19:14:16.591 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootJUnit4ClassRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+25-10-2021 19:14:16.593 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootJUnit4ClassRunner now ready to start CamelContext
+25-10-2021 19:14:16.594 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+25-10-2021 19:14:16.594 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+25-10-2021 19:14:16.595 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+25-10-2021 19:14:17.030 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-10-2021 19:14:17.242 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route-1 started and consuming from: timer://hello?period=10s
+25-10-2021 19:14:17.245 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route-2 started and consuming from: timer://hello1?period=10s
+25-10-2021 19:14:17.246 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 2 routes, of which 2 are started
+25-10-2021 19:14:17.247 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-2) started in 0.653 seconds
+25-10-2021 19:14:18.247 [Camel (camel-2) thread #3 - timer://hello] INFO  route-1.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 19:14:18.247 [Camel (camel-2) thread #4 - timer://hello1] INFO  route-2.log - Timer Invoked and the bodyDEV Environment
+25-10-2021 19:14:18.248 [Camel (camel-2) thread #3 - timer://hello] INFO  .log - Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DESKTOP-AH2VL3Q-1635169443769-1-2, firedTime=Mon Oct 25 19:14:18 IST 2021}, BodyType: null, Body: [Body is null]]
+25-10-2021 19:14:18.248 [Camel (camel-2) thread #4 - timer://hello1] INFO  .log - Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, firedTime=Mon Oct 25 19:14:18 IST 2021}, BodyType: null, Body: [Body is null]]
+25-10-2021 19:14:20.344 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@4d664323: startup date [Mon Oct 25 19:14:10 IST 2021]; root of context hierarchy
+25-10-2021 19:14:20.346 [main] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 2147483647
+25-10-2021 19:14:20.347 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+25-10-2021 19:14:20.347 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 2 routes (timeout 10 seconds)
+25-10-2021 19:14:20.351 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 10 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:20.356 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=2109]
+25-10-2021 19:14:21.362 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 9 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:21.363 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=3116]
+25-10-2021 19:14:22.378 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 8 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:22.378 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=4131]
+25-10-2021 19:14:23.393 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 7 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:23.394 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=5147]
+25-10-2021 19:14:24.404 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 6 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:24.405 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=6158]
+25-10-2021 19:14:25.418 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 5 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:25.418 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=7171]
+25-10-2021 19:14:26.426 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 4 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:26.428 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=8181]
+25-10-2021 19:14:27.441 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 3 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:27.441 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=9194]
+25-10-2021 19:14:28.456 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:28.457 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=10210]
+25-10-2021 19:14:29.473 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route-2 = 1]
+25-10-2021 19:14:29.474 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=11226]
+25-10-2021 19:14:30.352 [Camel (camel-2) thread #7 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+25-10-2021 19:14:30.352 [main] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+25-10-2021 19:14:30.354 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-AH2VL3Q-1635169443769-1-3, fromRouteId=route-2, routeId=route-2, nodeId=pollEnrich4, elapsed=0, duration=12107]
+25-10-2021 19:14:30.354 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route-2 shutdown complete, was consuming from: timer://hello1?period=10s
+25-10-2021 19:14:30.355 [Camel (camel-2) thread #7 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route-1 shutdown complete, was consuming from: timer://hello?period=10s
+25-10-2021 19:14:30.357 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 2 routes completed in 10 seconds
+25-10-2021 19:14:30.361 [main] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+25-10-2021 19:14:30.368 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) uptime 13.774 seconds
+25-10-2021 19:14:30.369 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 10.022 seconds
+25-10-2021 19:14:30.371 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+25-10-2021 19:14:30.372 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Testing done: testMoveFile(com.learncamel.route.SimpleCamelRouteTest)
+25-10-2021 19:14:30.379 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Took: 13.124 seconds (13124 millis)
+25-10-2021 19:14:30.380 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
