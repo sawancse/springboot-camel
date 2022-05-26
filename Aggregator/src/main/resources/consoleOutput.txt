@@ -1,0 +1,26 @@
+15:00:48.873 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) is starting
+15:00:48.875 [main] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+15:00:49.173 [main] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 198 type converters
+15:00:49.246 [main] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+15:00:49.475 [main] INFO  o.a.camel.spring.SpringCamelContext - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+15:00:49.476 [main] INFO  o.a.camel.spring.SpringCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+15:00:49.692 [main] INFO  o.a.camel.spring.SpringCamelContext - Route: route1 started and consuming from: Endpoint[direct://processOrder]
+15:00:49.695 [main] INFO  o.a.camel.spring.SpringCamelContext - Route: route2 started and consuming from: Endpoint[direct://processItem]
+15:00:49.695 [main] INFO  o.a.camel.spring.SpringCamelContext - Total 2 routes, of which 2 is started.
+15:00:49.699 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) started in 0.824 seconds
+15:00:49.701 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) is starting
+15:00:49.701 [main] INFO  o.a.camel.spring.SpringCamelContext - Total 2 routes, of which 2 is started.
+15:00:49.702 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) started in 0.000 seconds
+handle book Item:Item [id=1, name=Camel in Action book, type=Book, price=0.0]
+book Item processed
+Aggregate first item: Item [id=1, name=Camel in Action book, type=Book, price=30.0]
+handle phone Item:Item [id=2, name=Apple IPhone8, type=Phone, price=0.0]
+phone Item processed
+Aggregate old items: Order [id=ORD1493803849785, items=[Item [id=1, name=Camel in Action book, type=Book, price=30.0]], totalPrice=30.0]
+Aggregate new item: Item [id=2, name=Apple IPhone8, type=Phone, price=500.0]
+resp order:Order [id=ORD1493803849785, items=[Item [id=1, name=Camel in Action book, type=Book, price=30.0], Item [id=2, name=Apple IPhone8, type=Phone, price=500.0]], totalPrice=530.0]
+15:00:49.789 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) is shutting down
+15:00:49.790 [main] INFO  o.a.c.impl.DefaultShutdownStrategy - Starting to graceful shutdown 2 routes (timeout 300 seconds)
+15:00:49.800 [main] INFO  o.a.c.impl.DefaultShutdownStrategy - Graceful shutdown of 2 routes completed in 0 seconds
+15:00:49.815 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) uptime 0.114 seconds
+15:00:49.816 [main] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.16.0 (CamelContext: orderCtx) is shutdown in 0.026 seconds
