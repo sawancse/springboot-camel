@@ -1,0 +1,127 @@
+spring:
+  profiles:
+    active: dev
+camel:
+  springboot:
+    shutdownTimeout: 1
+    health.indicator.enabled: true
+management.security.enabled: false
+
+info.app.name: Spring boiler plate
+info.app.description: This is a Spring boot boiler plate code.
+info.app.version: 1.0.0
+
+---
+
+spring:
+  profiles: mock
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: xyz@gmail.com
+    password:
+    properties.mail.smtp.auth:  true
+    properties.mail.smtp.starttls.enable: true
+
+mail.smtp.starttls.enable: true
+
+mailto: xyz@gmail.com
+mailFrom: xyz@gmail.com
+
+message:   Hello from MOCK Profile
+fromRoute: direct:input
+toRoute: mock:output
+healthRoute: direct:health
+
+---
+
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: alertsdilip@gmail.com
+    password: alertsdilip123
+    properties.mail.smtp.auth:  true
+    properties.mail.smtp.starttls.enable: true
+  activemq:
+    broker-url: tcp://foo:12345
+    pool:
+      enabled: true
+      max-connections: 5
+     
+camel.component.activemq.broker-url: tcp://localhost:61616
+camel.springboot.main-run-controller: true
+mailto: xyz@gmail.com
+mailFrom: xyz@gmail.com
+message:   Hello from DEV Profile
+
+  
+  
+toRoute:  log:?level=INFO&showBody=true
+healthRoute: timer:health?period=10s
+
+---
+
+spring:
+  profiles: stage
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: xyz@gmail.com
+    password:
+    properties.mail.smtp.auth:  true
+    properties.mail.smtp.starttls.enable: true
+
+mailto: xyz@gmail.com
+mailFrom: xyz@gmail.com
+message:    Hello from STAGE Profile
+
+fromRoute: kafka:inputItemTopic?brokers=localhost:9092&groupId=itemDev&autoOffsetReset=earliest&consumersCount=1
+toRoute:  log:?level=INFO&showBody=true
+healthRoute: timer:health?period=10s
+
+
+---
+
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/localDB
+    username: postgres
+    password: postgres
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: xyz@gmail.com
+    password:
+    properties.mail.smtp.auth:  true
+    properties.mail.smtp.starttls.enable: true
+
+mailto: xyz@gmail.com
+mailFrom: xyz@gmail.com
+
+message:    Hello from PROD Profile
+
+fromRoute: kafka:inputItemTopic?brokers=localhost:9092&groupId=itemDev&autoOffsetReset=earliest&consumersCount=1
+toRoute:  log:?level=INFO&showBody=true
+healthRoute: timer:health?period=10s
+
+
+---
